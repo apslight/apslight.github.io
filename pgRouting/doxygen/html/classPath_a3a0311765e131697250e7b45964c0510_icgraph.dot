@@ -1,0 +1,19 @@
+digraph "Path::size"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node224 [label="Path::size",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node224 -> Node225 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node225 [label="do_pgr_dijkstraTRSP",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$dijkstraTRSP__driver_8h.html#a965e2aa38abf784f42097b60cd55a06a"];
+  Node224 -> Node228 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node228 [label="equi_cost",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$basePath__SSEC_8cpp.html#a5ec42f9cedce93c209092bc259b9c56c"];
+  Node224 -> Node229 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node229 [label="Path::isEqual",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPath.html#ade800a6ff8494a4e9069f67f16cf3145"];
+  Node224 -> Node230 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node230 [label="Pgr_ksp::compPaths\l::operator()",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPgr__ksp_1_1compPaths.html#ad29324a5255fcd7cfb006ac4724fb3c6"];
+  Node224 -> Node231 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node231 [label="pgRouting::pgr_dijkstraVia",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$namespacepgRouting.html#ab0332a7731ec5fe2696668fd206fc3a6"];
+  Node224 -> Node235 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node235 [label="Pgr_ksp::Yen",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classPgr__ksp.html#a20f84d74e3ead8e43ec907dcabaadeac"];
+}

@@ -1,0 +1,25 @@
+digraph "pgrouting::graph::Pgr_base_graph::has_vertex"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node86 [label="pgrouting::graph::Pgr\l_base_graph::has_vertex",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node86 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node87 [label="pgrouting::graph::Pgr\l_base_graph::add_vertices",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#ab13f36eb0578e04260de70dcde6850ab",tooltip="adds the vertices into the graph "];
+  Node86 -> Node89 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node89 [label="pgrouting::graph::Pgr\l_contractionGraph::get\l_contracted_vertices",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpgrouting_1_1graph_1_1Pgr__contractionGraph.html#af14120e5a508dfe9baa0c527de8968c2",tooltip="get the contracted vertex ids of a given vertex in array format "];
+  Node86 -> Node90 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node90 [label="pgrouting::graph::Pgr\l_base_graph::get_V",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#a7d0ce3afe892177a2df9886e9464ea4d",tooltip="get the vertex descriptor of the vid "];
+  Node86 -> Node91 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node91 [label="pgrouting::graph::Pgr\l_base_graph::graph_add\l_edge_no_create_vertex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#ab0cd5c23680f24c4c1829d6db9b775af",tooltip="Use this function when the vertices are already inserted in the graph. "];
+  Node91 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node92 [label="pgrouting::graph::Pgr\l_base_graph::insert_edges",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#a6ee6c7c085a7fe6ad7266245dca7c38e"];
+  Node86 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node93 [label="pgrouting::graph::Pgr\l_base_graph::in_degree",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#a9e3c3fb4f14e4ded019ad9fc39c3f8ae"];
+  Node86 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 -> Node94 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node94 [label="pgrouting::graph::Pgr\l_base_graph::out_degree",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#a5dc76de4f3942e3f839eca6eee0e8be6",tooltip="get the out-degree of a vertex "];
+  Node94 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node86 -> Node95 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node95 [label="pgrouting::graph::Pgr\l_base_graph::Pgr_base_graph",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#a9b8bda565bb470f31b378948c1d67215",tooltip="Constructor. "];
+}

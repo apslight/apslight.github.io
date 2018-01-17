@@ -1,0 +1,15 @@
+digraph "pgrouting::graph::Pgr_base_graph::graph_add_edge_no_create_vertex"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node77 [label="pgrouting::graph::Pgr\l_base_graph::graph_add\l_edge_no_create_vertex",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node77 -> Node78 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node78 [label="pgrouting::graph::Pgr\l_base_graph::get_V",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#ab7723cc4953bdf4319e1201d3eb921bd",tooltip="get the vertex descriptor of the vertex "];
+  Node77 -> Node80 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node80 [label="pgrouting::graph::Pgr\l_base_graph::has_vertex",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#ad71f29403e6087e10e7a3e2a007c0bd9",tooltip="True when vid is in the graph. "];
+  Node77 -> Node81 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node81 [label="pgrouting::graph::Pgr\l_base_graph::is_directed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#ac3b50334ff014ad8a9723c667423637b"];
+  Node77 -> Node82 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node82 [label="pgrouting::graph::Pgr\l_base_graph::is_undirected",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#acd124cc2a584b032d34f5006cd339b1b"];
+}

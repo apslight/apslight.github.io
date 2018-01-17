@@ -1,0 +1,8 @@
+<map id="pgrouting::graph::Pgr_base_graph::num_vertices" name="pgrouting::graph::Pgr_base_graph::num_vertices">
+<area shape="rect" id="node2" href="$classpgrouting_1_1graph_1_1Pgr__lineGraph.html#a3a4b8c9f4e3a910ac9d959ed360bcfcc" title="pgrouting::graph::Pgr\l_lineGraph::add_one_vertex" alt="" coords="244,5,428,47"/>
+<area shape="rect" id="node3" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#ab13f36eb0578e04260de70dcde6850ab" title="adds the vertices into the graph " alt="" coords="247,71,425,112"/>
+<area shape="rect" id="node4" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#a61707a2edbad526cf5f5754d61d987c1" title="Inserts count edges of type pgr_edge_t into the graph. " alt="" coords="484,100,663,141"/>
+<area shape="rect" id="node5" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#ab7723cc4953bdf4319e1201d3eb921bd" title="get the vertex descriptor of the vertex " alt="" coords="265,188,407,229"/>
+<area shape="rect" id="node6" href="$classpgrouting_1_1graph_1_1Pgr__lineGraphFull.html#a9ec20f50fbe8d56dc52c9910597f4984" title="pgrouting::graph::Pgr\l_lineGraphFull::insert\l_vertex" alt="" coords="263,253,409,309"/>
+<area shape="rect" id="node7" href="$classpgrouting_1_1graph_1_1Pgr__contractionGraph.html#aaf48f450c4d8a6e92004f93b4077cb3a" title="print the graph with contracted vertices of all vertices and edges " alt="" coords="236,332,436,373"/>
+</map>

@@ -1,0 +1,28 @@
+<map id="pgrouting::vrp::Vehicle::invariant" name="pgrouting::vrp::Vehicle::invariant">
+<area shape="rect" id="node2" href="$classpgrouting_1_1vrp_1_1Vehicle__pickDeliver.html#a3dd3375570d3cbe915571e2aea4560d2" title="pgrouting::vrp::Vehicle\l_pickDeliver::do_while\l_feasable" alt="" coords="867,556,1020,612"/>
+<area shape="rect" id="node3" href="$classpgrouting_1_1vrp_1_1Vehicle.html#a65bf4bc2763295f93cfed232690c4e6c" title="return true when no nodes are in the truck " alt="" coords="211,170,363,212"/>
+<area shape="rect" id="node4" href="$classpgrouting_1_1vrp_1_1Vehicle__pickDeliver.html#a9dd0efadc2c3f02a19c320b3cb7d6814" title="pgrouting::vrp::Vehicle\l_pickDeliver::get_first_order" alt="" coords="424,61,609,102"/>
+<area shape="rect" id="node5" href="$classpgrouting_1_1vrp_1_1Vehicle__pickDeliver.html#ae986b7aeb637a21092142846e6c99799" title="pgrouting::vrp::Vehicle\l_pickDeliver::get_worse_order" alt="" coords="417,229,616,270"/>
+<area shape="rect" id="node6" href="$classpgrouting_1_1vrp_1_1Vehicle__pickDeliver.html#a1cc938f784f87e65647aa90e3f9946a2" title="The order that is picked last is removed. " alt="" coords="864,120,1023,161"/>
+<area shape="rect" id="node7" href="$classpgrouting_1_1vrp_1_1Vehicle__pickDeliver.html#acaadbc4ac95ca48c7151fe4631fbe259" title="pgrouting::vrp::Vehicle\l_pickDeliver::pop_front" alt="" coords="865,288,1021,329"/>
+<area shape="rect" id="node8" href="$classpgrouting_1_1vrp_1_1Vehicle__pickDeliver.html#a3824b3c3af974687c0bdcc9aab615350" title="pgrouting::vrp::Vehicle\l_pickDeliver::erase" alt="" coords="664,346,816,388"/>
+<area shape="rect" id="node9" href="$classpgrouting_1_1vrp_1_1Vehicle.html#ad1920dd6aed04b9381b9b2ec78dddc47" title="Erase node.id() " alt="" coords="441,498,593,540"/>
+<area shape="rect" id="node10" href="$classpgrouting_1_1vrp_1_1Vehicle__pickDeliver.html#acd6d3d720b3002cbb930a44099fa0688" title="Inserts an order. " alt="" coords="664,501,816,542"/>
+<area shape="rect" id="node11" href="$classpgrouting_1_1vrp_1_1Vehicle.html#aac46d18126e93540a1d7321281a1fc02" title="Evaluated: pop_back a node to the path. " alt="" coords="664,424,816,465"/>
+<area shape="rect" id="node12" href="$classpgrouting_1_1vrp_1_1Vehicle.html#aa7d6e872a8ac0e52f899827a52b6ffcc" title="Evaluated: pop_front a node to the path. " alt="" coords="664,638,816,680"/>
+<area shape="rect" id="node13" href="$classpgrouting_1_1vrp_1_1Vehicle.html#aeec21aba283e23f4bf2a355f4f7c2764" title="@ { " alt="" coords="211,650,363,692"/>
+<area shape="rect" id="node14" href="$classpgrouting_1_1vrp_1_1Vehicle__pickDeliver.html#aa894fd15242682756ea30cc1bbd6aa42" title="puts an order at the end of the truck " alt="" coords="434,564,599,605"/>
+<area shape="rect" id="node15" href="$classpgrouting_1_1vrp_1_1Vehicle__pickDeliver.html#a34330126d1614d29dff7fc48a6a43f69" title="Puts an order at the end front of the truck. " alt="" coords="435,746,598,788"/>
+<area shape="rect" id="node16" href="$classpgrouting_1_1vrp_1_1Vehicle.html#a0d79d716f770c845cfb2e811688fc350" title="Swap two nodes in the path. " alt="" coords="441,812,593,853"/>
+<area shape="rect" id="node17" href="$classpgrouting_1_1vrp_1_1Vehicle.html#aa22d65f920e996e3497bff86876b181f" title="Insert node in best position of the position_limits. " alt="" coords="664,837,816,878"/>
+<area shape="rect" id="node18" href="$classpgrouting_1_1vrp_1_1Vehicle.html#a163d32b8d5c8e0444e4fa432b680a784" title="pgrouting::vrp::Vehicle\l::Vehicle" alt="" coords="441,629,593,670"/>
+<area shape="rect" id="node19" href="$classpgrouting_1_1vrp_1_1Vehicle.html#a50ba2513d8130e34f95a6a1d98253767" title="pgrouting::vrp::Vehicle\l::getPosHighLimit" alt="" coords="211,970,363,1012"/>
+<area shape="rect" id="node20" href="$classpgrouting_1_1vrp_1_1Vehicle.html#ac7cf6a7621be6ee67169364d63850dbf" title="pgrouting::vrp::Vehicle\l::getPosLowLimit" alt="" coords="211,1036,363,1077"/>
+<area shape="rect" id="node21" href="$classpgrouting_1_1vrp_1_1Vehicle.html#a43b1afad2e0d74af5b5d79dbd6829446" title="pgrouting::vrp::Vehicle\l::insert_less_travel_time" alt="" coords="205,1101,369,1142"/>
+<area shape="rect" id="node22" href="$namespacepgrouting_1_1vrp.html#a28fd3a2b43a9cae6eec071ef5b0ab35d" title="pgrouting::vrp::operator\&lt;" alt="" coords="205,1167,369,1194"/>
+<area shape="rect" id="node23" href="$namespacepgrouting_1_1vrp.html#ad52d4d4bcd5667c19bd9c78f72dde8c7" title="pgrouting::vrp::operator\&lt;\&lt;" alt="" coords="431,1247,603,1274"/>
+<area shape="rect" id="node24" href="$classpgrouting_1_1vrp_1_1Vehicle.html#aba2e41f35832f29bb570c070ee6b8fab" title="@ { " alt="" coords="211,1269,363,1310"/>
+<area shape="rect" id="node25" href="$classpgrouting_1_1vrp_1_1Vehicle.html#a6608a42ff54a288e2e1b3bed58c8bcaa" title="Evaluated: push_back a node to the path. " alt="" coords="211,1334,363,1376"/>
+<area shape="rect" id="node26" href="$classpgrouting_1_1vrp_1_1Vehicle.html#a95ca8e3803a63ecfeed064a250796594" title="Evaluated: push_back a node to the path. " alt="" coords="211,1400,363,1441"/>
+<area shape="rect" id="node27" href="$classpgrouting_1_1vrp_1_1Vehicle__pickDeliver.html#a2238dbc1013a9d57b52b84bc0a243d8f" title="pgrouting::vrp::Vehicle\l_pickDeliver::Vehicle\l_pickDeliver" alt="" coords="211,1464,363,1520"/>
+</map>

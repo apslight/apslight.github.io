@@ -1,0 +1,21 @@
+digraph "Path::empty"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node55 [label="Path::empty",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node55 -> Node56 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="pgrouting::Pg_points\l_graph::adjust_pids",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpgrouting_1_1Pg__points__graph.html#a1daf3e5eb10e11a86029ba839cb3ec64"];
+  Node55 -> Node57 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 [label="pgrouting::Pg_points\l_graph::eliminate_details",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classpgrouting_1_1Pg__points__graph.html#a3116d404b1aeab4255b83a96c040686c"];
+  Node55 -> Node64 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node64 [label="pgrouting::Pg_points\l_graph::eliminate_details_dd",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classpgrouting_1_1Pg__points__graph.html#ad4eec360b2b5b8244d4bf927c03d6bb0"];
+  Node55 -> Node68 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node68 [label="Pgr_dijkstraTRSP::getDijkstra\lSolution",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPgr__dijkstraTRSP.html#aa0d9c2c04238b6c1524468bf14a18497"];
+  Node55 -> Node69 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node69 [label="Pgr_ksp::getFirstSolution",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPgr__ksp.html#a11eac853ca869c5b829f13a7c199255c",tooltip="Performs the first Dijkstra of the algorithm. "];
+  Node55 -> Node70 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node70 [label="Path::isEqual",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classPath.html#ade800a6ff8494a4e9069f67f16cf3145"];
+  Node55 -> Node71 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node71 [label="pgRouting::pgr_dijkstraVia",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$namespacepgRouting.html#ab0332a7731ec5fe2696668fd206fc3a6"];
+}

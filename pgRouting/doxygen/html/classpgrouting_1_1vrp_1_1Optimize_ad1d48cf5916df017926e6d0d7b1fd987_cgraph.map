@@ -1,0 +1,8 @@
+<map id="pgrouting::vrp::Optimize::inter_swap" name="pgrouting::vrp::Optimize::inter_swap">
+<area shape="rect" id="node2" href="$classpgrouting_1_1vrp_1_1Optimize.html#a4dcb408130c2ed4164b8d754d11ad44b" title="pgrouting::vrp::Optimize\l::delete_empty_truck" alt="" coords="225,5,387,47"/>
+<area shape="rect" id="node3" href="$classpgrouting_1_1vrp_1_1Swap__bk.html#a88ace9e98fd750245de318deb762011a" title="pgrouting::vrp::Swap\l_bk::empty" alt="" coords="445,127,588,168"/>
+<area shape="rect" id="node4" href="$classpgrouting_1_1vrp_1_1Optimize.html#a18e362ade6f898d3b1cbba0505e5abcf" title="pgrouting::vrp::Optimize\l::move_reduce_cost" alt="" coords="225,123,387,164"/>
+<area shape="rect" id="node5" href="$classpgrouting_1_1vrp_1_1Optimize.html#a59e81988357151065d6dd02c742a3d84" title="pgrouting::vrp::Optimize\l::swap_order" alt="" coords="225,188,387,229"/>
+<area shape="rect" id="node6" href="$classpgrouting_1_1vrp_1_1Optimize.html#a39173d526079577d40c59371bcfcc680" title="pgrouting::vrp::Optimize\l::swap_worse" alt="" coords="225,253,387,295"/>
+<area shape="rect" id="node7" href="$classpgrouting_1_1vrp_1_1Solution.html#af57a4f8691ed496abe7e024e90c74492" title="pgrouting::vrp::Solution::tau" alt="" coords="215,319,397,346"/>
+</map>

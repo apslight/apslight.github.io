@@ -1,0 +1,19 @@
+digraph "pgrouting::vrp::Vehicle::tau"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node674 [label="pgrouting::vrp::Vehicle::tau",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node674 -> Node675 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node675 [label="pgrouting::vrp::Vehicle\l::cvTot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpgrouting_1_1vrp_1_1Vehicle.html#a2fe5a77c18f78d802599327957a2357e"];
+  Node674 -> Node676 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node676 [label="pgrouting::vrp::Vehicle\l::duration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpgrouting_1_1vrp_1_1Vehicle.html#a0d65e9efcf78078f3b914b12f61ebf75"];
+  Node674 -> Node677 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node677 [label="pgrouting::Identifier::id",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpgrouting_1_1Identifier.html#a147f029e589a2dd36b1edd638d7ac833"];
+  Node674 -> Node678 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node678 [label="pgrouting::Identifier::idx",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpgrouting_1_1Identifier.html#ae0a3414bc65c1b67101b3f5944505447"];
+  Node674 -> Node679 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node679 [label="pgrouting::vrp::Vehicle\l::total_wait_time",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpgrouting_1_1vrp_1_1Vehicle.html#a574893de6aeb02d2e7fb6a8118ffcddf"];
+  Node674 -> Node680 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node680 [label="pgrouting::vrp::Vehicle\l::twvTot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpgrouting_1_1vrp_1_1Vehicle.html#a0052d0936d0a3a2ee4e29f07a76c7ec0"];
+}

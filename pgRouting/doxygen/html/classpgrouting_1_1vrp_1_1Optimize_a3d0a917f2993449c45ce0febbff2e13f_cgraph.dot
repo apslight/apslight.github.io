@@ -1,0 +1,15 @@
+digraph "pgrouting::vrp::Optimize::swap_order"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node427 [label="pgrouting::vrp::Optimize\l::swap_order",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node427 -> Node428 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node428 [label="pgrouting::vrp::Vehicle\l_pickDeliver::erase",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classpgrouting_1_1vrp_1_1Vehicle__pickDeliver.html#a3824b3c3af974687c0bdcc9aab615350"];
+  Node428 -> Node430 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node430 [label="pgrouting::vrp::Vehicle\l_pickDeliver::has_order",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classpgrouting_1_1vrp_1_1Vehicle__pickDeliver.html#adb870b4b7089194de06de8471eba0767"];
+  Node427 -> Node430 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node427 -> Node437 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node437 [label="pgrouting::vrp::Vehicle\l_pickDeliver::insert",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classpgrouting_1_1vrp_1_1Vehicle__pickDeliver.html#acd6d3d720b3002cbb930a44099fa0688",tooltip="Inserts an order. "];
+  Node437 -> Node430 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

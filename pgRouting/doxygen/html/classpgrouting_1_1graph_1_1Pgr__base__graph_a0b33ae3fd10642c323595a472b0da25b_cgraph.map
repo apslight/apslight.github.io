@@ -1,0 +1,6 @@
+<map id="pgrouting::graph::Pgr_base_graph::adjacent" name="pgrouting::graph::Pgr_base_graph::adjacent">
+<area shape="rect" id="node2" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#a27834e51f1d8d88df28f3bfc213bcb68" title="pgrouting::graph::Pgr\l_base_graph::is_source" alt="" coords="207,5,367,47"/>
+<area shape="rect" id="node3" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#ad98fd25cf17ce36de3f4e7799c5fcf63" title="pgrouting::graph::Pgr\l_base_graph::source" alt="" coords="415,48,557,89"/>
+<area shape="rect" id="node4" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#a2ce09c08bdb099d43add5d9f88a2c7c4" title="pgrouting::graph::Pgr\l_base_graph::is_target" alt="" coords="209,123,364,164"/>
+<area shape="rect" id="node5" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#a6c9df228fe6c9c49d49d303ad9871234" title="pgrouting::graph::Pgr\l_base_graph::target" alt="" coords="415,139,557,180"/>
+</map>

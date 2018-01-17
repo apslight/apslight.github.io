@@ -1,0 +1,10 @@
+<map id="pgrouting::graph::Pgr_base_graph::has_vertex" name="pgrouting::graph::Pgr_base_graph::has_vertex">
+<area shape="rect" id="node2" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#ab13f36eb0578e04260de70dcde6850ab" title="adds the vertices into the graph " alt="" coords="231,5,410,47"/>
+<area shape="rect" id="node3" href="$classpgrouting_1_1graph_1_1Pgr__contractionGraph.html#af14120e5a508dfe9baa0c527de8968c2" title="get the contracted vertex ids of a given vertex in array format " alt="" coords="243,70,398,126"/>
+<area shape="rect" id="node4" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#a7d0ce3afe892177a2df9886e9464ea4d" title="get the vertex descriptor of the vid " alt="" coords="249,149,392,191"/>
+<area shape="rect" id="node5" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#ab0cd5c23680f24c4c1829d6db9b775af" title="Use this function when the vertices are already inserted in the graph. " alt="" coords="239,214,403,270"/>
+<area shape="rect" id="node6" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#a6ee6c7c085a7fe6ad7266245dca7c38e" title="pgrouting::graph::Pgr\l_base_graph::insert_edges" alt="" coords="468,269,647,311"/>
+<area shape="rect" id="node7" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#a9e3c3fb4f14e4ded019ad9fc39c3f8ae" title="pgrouting::graph::Pgr\l_base_graph::in_degree" alt="" coords="477,356,637,397"/>
+<area shape="rect" id="node8" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#a5dc76de4f3942e3f839eca6eee0e8be6" title="get the out&#45;degree of a vertex " alt="" coords="237,396,405,437"/>
+<area shape="rect" id="node9" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#a9b8bda565bb470f31b378948c1d67215" title="Constructor. " alt="" coords="221,461,420,503"/>
+</map>

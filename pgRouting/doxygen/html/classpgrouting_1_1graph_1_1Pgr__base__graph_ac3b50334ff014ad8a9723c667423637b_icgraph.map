@@ -1,0 +1,5 @@
+<map id="pgrouting::graph::Pgr_base_graph::is_directed" name="pgrouting::graph::Pgr_base_graph::is_directed">
+<area shape="rect" id="node2" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#ab0cd5c23680f24c4c1829d6db9b775af" title="Use this function when the vertices are already inserted in the graph. " alt="" coords="220,5,384,61"/>
+<area shape="rect" id="node3" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#a9e3c3fb4f14e4ded019ad9fc39c3f8ae" title="pgrouting::graph::Pgr\l_base_graph::in_degree" alt="" coords="222,85,382,126"/>
+<area shape="rect" id="node4" href="$classpgrouting_1_1graph_1_1Pgr__contractionGraph.html#ad153e012392316aefeb2f68e14934c74" title="The number of edges from vertex to neighbor. " alt="" coords="225,149,379,205"/>
+</map>

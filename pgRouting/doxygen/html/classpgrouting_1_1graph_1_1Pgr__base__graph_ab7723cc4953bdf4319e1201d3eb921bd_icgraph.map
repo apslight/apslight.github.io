@@ -1,0 +1,10 @@
+<map id="pgrouting::graph::Pgr_base_graph::get_V" name="pgrouting::graph::Pgr_base_graph::get_V">
+<area shape="rect" id="node2" href="$classpgrouting_1_1graph_1_1Pgr__contractionGraph.html#aac41e36df4c781649a2287799878b295" title="add edges(shortuct) to the graph during contraction " alt="" coords="211,5,368,61"/>
+<area shape="rect" id="node3" href="$classpgrouting_1_1graph_1_1Pgr__contractionGraph.html#af14120e5a508dfe9baa0c527de8968c2" title="get the contracted vertex ids of a given vertex in array format " alt="" coords="212,85,367,141"/>
+<area shape="rect" id="node4" href="$classpgrouting_1_1graph_1_1Pgr__componentsGraph.html#af1e2b6ab2603241de54be6b06d1bd341" title="pgrouting::graph::Pgr\l_componentsGraph::graph\l_add_edge" alt="" coords="202,165,377,221"/>
+<area shape="rect" id="node5" href="$classpgrouting_1_1graph_1_1Pgr__lineGraph.html#a99192912992b41c8991d4bf667b49a18" title="pgrouting::graph::Pgr\l_lineGraph::graph_add_edge" alt="" coords="196,245,383,286"/>
+<area shape="rect" id="node6" href="$classpgrouting_1_1graph_1_1Pgr__lineGraphFull.html#aa6f37d724f89d29cc1ad0612de7cd73e" title="pgrouting::graph::Pgr\l_lineGraphFull::graph\l_add_edge" alt="" coords="217,309,362,365"/>
+<area shape="rect" id="node7" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#ab0cd5c23680f24c4c1829d6db9b775af" title="Use this function when the vertices are already inserted in the graph. " alt="" coords="207,389,371,445"/>
+<area shape="rect" id="node8" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#a9e3c3fb4f14e4ded019ad9fc39c3f8ae" title="pgrouting::graph::Pgr\l_base_graph::in_degree" alt="" coords="431,491,591,533"/>
+<area shape="rect" id="node9" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#a5dc76de4f3942e3f839eca6eee0e8be6" title="get the out&#45;degree of a vertex " alt="" coords="205,521,373,562"/>
+</map>

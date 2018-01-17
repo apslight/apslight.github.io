@@ -1,0 +1,6 @@
+<map id="pgrouting::graph::Pgr_base_graph::insert_edges" name="pgrouting::graph::Pgr_base_graph::insert_edges">
+<area shape="rect" id="node2" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#ab0cd5c23680f24c4c1829d6db9b775af" title="Use this function when the vertices are already inserted in the graph. " alt="" coords="232,5,396,61"/>
+<area shape="rect" id="node3" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#ad71f29403e6087e10e7a3e2a007c0bd9" title="True when vid is in the graph. " alt="" coords="444,46,612,87"/>
+<area shape="rect" id="node4" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#ad98fd25cf17ce36de3f4e7799c5fcf63" title="pgrouting::graph::Pgr\l_base_graph::source" alt="" coords="243,137,385,178"/>
+<area shape="rect" id="node5" href="$classpgrouting_1_1graph_1_1Pgr__base__graph.html#a6c9df228fe6c9c49d49d303ad9871234" title="pgrouting::graph::Pgr\l_base_graph::target" alt="" coords="243,202,385,243"/>
+</map>

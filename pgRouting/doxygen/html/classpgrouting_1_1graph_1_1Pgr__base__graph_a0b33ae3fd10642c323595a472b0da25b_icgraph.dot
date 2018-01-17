@@ -1,0 +1,11 @@
+digraph "pgrouting::graph::Pgr_base_graph::adjacent"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node17 [label="pgrouting::graph::Pgr\l_base_graph::adjacent",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="pgrouting::graph::Pgr\l_contractionGraph::find\l_adjacent_vertices",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpgrouting_1_1graph_1_1Pgr__contractionGraph.html#adec7f703c60a87d1d0ce28d496b6ea7d",tooltip="get the vertex descriptors of adjacent vertices of v "];
+  Node17 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="pgrouting::graph::Pgr\l_contractionGraph::out\l_degree_to_vertex",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$classpgrouting_1_1graph_1_1Pgr__contractionGraph.html#ad153e012392316aefeb2f68e14934c74",tooltip="The number of edges from vertex to neighbor. "];
+}
