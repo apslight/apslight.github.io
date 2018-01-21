@@ -7,7 +7,7 @@ digraph "process"
   Node41 -> Node42 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node42 [label="do_pgr_many_to_many\l_dijkstra",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$dijkstra__driver_8cpp.html#a610a470a45977a0ffd7cf0e6b077ba99"];
   Node41 -> Node56 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node56 [label="pgr_get_bigIntArray",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$arrays__input_8c.html#a8b3b624e84ed449440408d11251384c1",tooltip="enforces the input array to be NOT empty "];
+  Node56 [label="pgr_get_bigIntArray",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$arrays__input_8c.html#a8b3b624e84ed449440408d11251384c1",tooltip=" Function returns the values of input array by checking its overflow conditions but array can&#39;t empty..."];
   Node41 -> Node59 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node59 [label="pgr_get_edges",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$edges__input_8c.html#af663e291b6bdfe777789be38b6bfcf76",tooltip="basic edge_sql "];
   Node41 -> Node74 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];

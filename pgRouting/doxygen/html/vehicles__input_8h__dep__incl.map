@@ -1,5 +1,5 @@
-<map id="/home/nazii/pgrouting/include/c_common/vehicles_input.h" name="/home/nazii/pgrouting/include/c_common/vehicles_input.h">
-<area shape="rect" id="node2" href="$vehicles__input_8c.html" title="/home/nazii/pgrouting\l/src/common/vehicles\l_input.c" alt="" coords="5,109,156,165"/>
-<area shape="rect" id="node3" href="$pickDeliver_8c.html" title="/home/nazii/pgrouting\l/src/pickDeliver/pickDeliver.c" alt="" coords="180,117,373,158"/>
-<area shape="rect" id="node4" href="$pickDeliverEuclidean_8c.html" title="/home/nazii/pgrouting\l/src/pickDeliver/pickDeliver\lEuclidean.c" alt="" coords="397,109,580,165"/>
+<map id="/home/nazii/PGR/include/c_common/vehicles_input.h" name="/home/nazii/PGR/include/c_common/vehicles_input.h">
+<area shape="rect" id="node2" href="$vehicles__input_8c.html" title="/home/nazii/PGR/src\l/common/vehicles_input.c" alt="" coords="5,95,180,136"/>
+<area shape="rect" id="node3" href="$pickDeliver_8c.html" title="/home/nazii/PGR/src\l/pickDeliver/pickDeliver.c" alt="" coords="205,95,375,136"/>
+<area shape="rect" id="node4" href="$pickDeliverEuclidean_8c.html" title="/home/nazii/PGR/src\l/pickDeliver/pickDeliverEuclidean.c" alt="" coords="400,95,628,136"/>
 </map>

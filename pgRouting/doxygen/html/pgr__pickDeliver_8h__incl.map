@@ -1,4 +1,4 @@
-<map id="/home/nazii/pgrouting/include/vrp/pgr_pickDeliver.h" name="/home/nazii/pgrouting/include/vrp/pgr_pickDeliver.h">
+<map id="/home/nazii/PGR/include/vrp/pgr_pickDeliver.h" name="/home/nazii/PGR/include/vrp/pgr_pickDeliver.h">
 <area shape="rect" id="node5" href="$general__vehicle__orders__t_8h.html" title="c_types/pickDeliver\l/general_vehicle_orders_t.h" alt="" coords="702,95,884,136"/>
 <area shape="rect" id="node6" href="$vehicle__t_8h.html" title="c_types/pickDeliver\l/vehicle_t.h" alt="" coords="908,95,1046,136"/>
 <area shape="rect" id="node7" href="$pickDeliveryOrders__t_8h.html" title="c_types/pickDeliver\l/pickDeliveryOrders_t.h" alt="" coords="647,259,806,300"/>

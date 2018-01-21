@@ -1,4 +1,4 @@
-digraph "/home/nazii/pgrouting/include/contraction" {
+digraph "/home/nazii/PGR/include/contraction" {
   compound=true
   node [ fontsize="10", fontname="Helvetica"];
   edge [ labelfontsize="10", labelfontname="Helvetica"];

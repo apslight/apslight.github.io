@@ -1,5 +1,5 @@
-<map id="/home/nazii/pgrouting/include/vrp/dnode.h" name="/home/nazii/pgrouting/include/vrp/dnode.h">
-<area shape="rect" id="node2" href="$dnode_8cpp.html" title="/home/nazii/pgrouting\l/src/pickDeliver/dnode.cpp" alt="" coords="5,95,183,136"/>
-<area shape="rect" id="node3" href="$fleet_8cpp.html" title="/home/nazii/pgrouting\l/src/pickDeliver/fleet.cpp" alt="" coords="207,95,373,136"/>
-<area shape="rect" id="node4" href="$pd__orders_8cpp.html" title="/home/nazii/pgrouting\l/src/pickDeliver/pd_orders.cpp" alt="" coords="397,95,596,136"/>
+<map id="/home/nazii/PGR/include/vrp/dnode.h" name="/home/nazii/PGR/include/vrp/dnode.h">
+<area shape="rect" id="node2" href="$dnode_8cpp.html" title="/home/nazii/PGR/src\l/pickDeliver/dnode.cpp" alt="" coords="5,95,160,136"/>
+<area shape="rect" id="node3" href="$fleet_8cpp.html" title="/home/nazii/PGR/src\l/pickDeliver/fleet.cpp" alt="" coords="185,95,330,136"/>
+<area shape="rect" id="node4" href="$pd__orders_8cpp.html" title="/home/nazii/PGR/src\l/pickDeliver/pd_orders.cpp" alt="" coords="354,95,531,136"/>
 </map>

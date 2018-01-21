@@ -1,4 +1,4 @@
-<map id="/home/nazii/pgrouting/include/vrp/tw_node.h" name="/home/nazii/pgrouting/include/vrp/tw_node.h">
+<map id="/home/nazii/PGR/include/vrp/tw_node.h" name="/home/nazii/PGR/include/vrp/tw_node.h">
 <area shape="rect" id="node3" href="$pickDeliveryOrders__t_8h.html" title="c_types/pickDeliver\l/pickDeliveryOrders_t.h" alt="" coords="27,95,186,136"/>
 <area shape="rect" id="node4" href="$vehicle__t_8h.html" title="c_types/pickDeliver\l/vehicle_t.h" alt="" coords="210,95,347,136"/>
 <area shape="rect" id="node5" href="$pgr__assert_8h.html" title="Assertions Handling. " alt="" coords="372,102,548,129"/>

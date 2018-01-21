@@ -5,7 +5,7 @@
 <area shape="rect" id="node5" href="$edges__input_8c.html#a7212342c0a0fc0ce4cfce8bfecffc551" title="get_edges_9_columns" alt="" coords="145,157,297,184"/>
 <area shape="rect" id="node6" href="$edges__input_8c.html#ac7601ed1a32c26cfadce2793a618214e" title="get_edges_basic" alt="" coords="161,208,281,235"/>
 <area shape="rect" id="node7" href="$edges__input_8c.html#ab9561bc873997fb2d1766e3f18c91875" title="get_edges_flow" alt="" coords="165,259,278,285"/>
-<area shape="rect" id="node8" href="$arrays__input_8c.html#a1ef3cfe2908f32befdf4f1aabacd1d21" title="pgr_get_bigIntArr" alt="" coords="161,309,282,336"/>
+<area shape="rect" id="node8" href="$arrays__input_8c.html#a1ef3cfe2908f32befdf4f1aabacd1d21" title=" Function returns the values of input array by checking its overflow conditions. " alt="" coords="161,309,282,336"/>
 <area shape="rect" id="node9" href="$coordinates__input_8h.html#a54deb1af794ff39f4589ca73b610b6d5" title="bigint id, float x, float y, " alt="" coords="152,360,291,387"/>
 <area shape="rect" id="node10" href="$matrixRows__input_8h.html#a6d9e7937e5b60b1f2d1b49c5e19c68e5" title="bigint start_vid, bigint end_vid, float agg_cost, " alt="" coords="150,411,293,437"/>
 <area shape="rect" id="node11" href="$orders__input_8c.html#ab3262397da4122ba16c4a04490c075d2" title="pgr_get_pd_orders_general" alt="" coords="132,461,311,488"/>

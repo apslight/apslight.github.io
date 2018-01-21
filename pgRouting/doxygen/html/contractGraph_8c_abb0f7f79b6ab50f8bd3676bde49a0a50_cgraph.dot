@@ -7,9 +7,9 @@ digraph "process"
   Node39 -> Node40 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node40 [label="do_pgr_contractGraph",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$contractGraph__driver_8cpp.html#a75f3817ccb656fe839cc6168b51c1a57"];
   Node39 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node52 [label="pgr_get_bigIntArray",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$arrays__input_8c.html#a8b3b624e84ed449440408d11251384c1",tooltip="enforces the input array to be NOT empty "];
+  Node52 [label="pgr_get_bigIntArray",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$arrays__input_8c.html#a8b3b624e84ed449440408d11251384c1",tooltip=" Function returns the values of input array by checking its overflow conditions but array can&#39;t empty..."];
   Node39 -> Node55 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node55 [label="pgr_get_bigIntArray\l_allowEmpty",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$arrays__input_8c.html#acc139acaca9d25eca8151cb70f90a90f",tooltip="Allows the input array to be empty. "];
+  Node55 [label="pgr_get_bigIntArray\l_allowEmpty",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$arrays__input_8c.html#acc139acaca9d25eca8151cb70f90a90f",tooltip=" Function returns the values of input array by checking its overflow conditions but array can empty..."];
   Node39 -> Node56 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node56 [label="pgr_get_edges",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$edges__input_8c.html#af663e291b6bdfe777789be38b6bfcf76",tooltip="basic edge_sql "];
   Node39 -> Node71 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];

@@ -1,11 +1,11 @@
-<map id="/home/nazii/pgrouting/include/dijkstra/pgr_dijkstra.hpp" name="/home/nazii/pgrouting/include/dijkstra/pgr_dijkstra.hpp">
-<area shape="rect" id="node2" href="$dijkstra__driver_8cpp.html" title="/home/nazii/pgrouting\l/src/dijkstra/dijkstra\l_driver.cpp" alt="" coords="5,109,152,165"/>
-<area shape="rect" id="node3" href="$drivedist__driver_8cpp.html" title="/home/nazii/pgrouting\l/src/driving_distance\l/drivedist_driver.cpp" alt="" coords="176,109,323,165"/>
-<area shape="rect" id="node4" href="$withPoints__dd__driver_8cpp.html" title="/home/nazii/pgrouting\l/src/driving_distance\l/withPoints_dd_driver.cpp" alt="" coords="347,109,519,165"/>
-<area shape="rect" id="node5" href="$lineGraph__driver_8cpp.html" title="/home/nazii/pgrouting\l/src/lineGraph/lineGraph\l_driver.cpp" alt="" coords="544,109,707,165"/>
-<area shape="rect" id="node6" href="$lineGraphFull__driver_8cpp.html" title="/home/nazii/pgrouting\l/src/lineGraph/lineGraphFull\l_driver.cpp" alt="" coords="731,109,914,165"/>
-<area shape="rect" id="node7" href="$withPoints__driver_8cpp.html" title="/home/nazii/pgrouting\l/src/withPoints/withPoints\l_driver.cpp" alt="" coords="938,109,1113,165"/>
-<area shape="rect" id="node8" href="$pgr__dijkstraVia_8hpp.html" title="/home/nazii/pgrouting\l/include/dijkstra/pgr\l_dijkstraVia.hpp" alt="" coords="1137,109,1284,165"/>
-<area shape="rect" id="node9" href="$pgr__dijkstraTRSP_8hpp.html" title="/home/nazii/pgrouting\l/include/dijkstraTRSP\l/pgr_dijkstraTRSP.hpp" alt="" coords="1308,109,1463,165"/>
-<area shape="rect" id="node10" href="$pgr__ksp_8hpp.html" title="/home/nazii/pgrouting\l/include/yen/pgr_ksp.hpp" alt="" coords="1487,117,1654,158"/>
+<map id="/home/nazii/PGR/include/dijkstra/pgr_dijkstra.hpp" name="/home/nazii/PGR/include/dijkstra/pgr_dijkstra.hpp">
+<area shape="rect" id="node2" href="$dijkstra__driver_8cpp.html" title="/home/nazii/PGR/src\l/dijkstra/dijkstra_driver.cpp" alt="" coords="5,102,184,143"/>
+<area shape="rect" id="node3" href="$drivedist__driver_8cpp.html" title="/home/nazii/PGR/src\l/driving_distance/drivedist\l_driver.cpp" alt="" coords="208,95,381,151"/>
+<area shape="rect" id="node4" href="$withPoints__dd__driver_8cpp.html" title="/home/nazii/PGR/src\l/driving_distance/withPoints\l_dd_driver.cpp" alt="" coords="406,95,591,151"/>
+<area shape="rect" id="node5" href="$lineGraph__driver_8cpp.html" title="/home/nazii/PGR/src\l/lineGraph/lineGraph\l_driver.cpp" alt="" coords="616,95,760,151"/>
+<area shape="rect" id="node6" href="$lineGraphFull__driver_8cpp.html" title="/home/nazii/PGR/src\l/lineGraph/lineGraphFull\l_driver.cpp" alt="" coords="785,95,946,151"/>
+<area shape="rect" id="node7" href="$withPoints__driver_8cpp.html" title="/home/nazii/PGR/src\l/withPoints/withPoints\l_driver.cpp" alt="" coords="971,95,1123,151"/>
+<area shape="rect" id="node8" href="$pgr__dijkstraVia_8hpp.html" title="/home/nazii/PGR/include\l/dijkstra/pgr_dijkstraVia.hpp" alt="" coords="1147,102,1330,143"/>
+<area shape="rect" id="node9" href="$pgr__dijkstraTRSP_8hpp.html" title="/home/nazii/PGR/include\l/dijkstraTRSP/pgr_dijkstraTRSP.hpp" alt="" coords="1354,102,1590,143"/>
+<area shape="rect" id="node10" href="$pgr__ksp_8hpp.html" title="/home/nazii/PGR/include\l/yen/pgr_ksp.hpp" alt="" coords="1614,102,1781,143"/>
 </map>

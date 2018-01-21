@@ -1,5 +1,5 @@
-<map id="/home/nazii/pgrouting/include/c_common/matrixRows_input.h" name="/home/nazii/pgrouting/include/c_common/matrixRows_input.h">
-<area shape="rect" id="node2" href="$matrixRows__input_8c.html" title="/home/nazii/pgrouting\l/src/common/matrixRows\l_input.c" alt="" coords="5,109,177,165"/>
-<area shape="rect" id="node3" href="$pickDeliver_8c.html" title="/home/nazii/pgrouting\l/src/pickDeliver/pickDeliver.c" alt="" coords="201,117,395,158"/>
-<area shape="rect" id="node4" href="$newTSP_8c.html" title="/home/nazii/pgrouting\l/src/tsp/newTSP.c" alt="" coords="419,117,566,158"/>
+<map id="/home/nazii/PGR/include/c_common/matrixRows_input.h" name="/home/nazii/PGR/include/c_common/matrixRows_input.h">
+<area shape="rect" id="node2" href="$matrixRows__input_8c.html" title="/home/nazii/PGR/src\l/common/matrixRows_input.c" alt="" coords="5,95,201,136"/>
+<area shape="rect" id="node3" href="$pickDeliver_8c.html" title="/home/nazii/PGR/src\l/pickDeliver/pickDeliver.c" alt="" coords="226,95,397,136"/>
+<area shape="rect" id="node4" href="$newTSP_8c.html" title="/home/nazii/PGR/src\l/tsp/newTSP.c" alt="" coords="421,95,565,136"/>
 </map>

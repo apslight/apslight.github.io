@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PGROUTING: /home/nazii/pgrouting/src/common/get_check_data.c File Reference</title>
+<title>PGROUTING: /home/nazii/PGR/src/common/get_check_data.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -100,11 +100,11 @@ $(document).ready(function(){initNavTree('get__check__data_8c.html','');});
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for get_check_data.c:</div>
 <div class="dyncontent">
-<div class="center"><img src="get__check__data_8c__incl.png" border="0" usemap="#_2home_2nazii_2pgrouting_2src_2common_2get__check__data_8c" alt=""/></div>
-<map name="_2home_2nazii_2pgrouting_2src_2common_2get__check__data_8c" id="_2home_2nazii_2pgrouting_2src_2common_2get__check__data_8c">
-<area shape="rect" id="node2" href="get__check__data_8h.html" title="c_common/get_check\l_data.h" alt="" coords="5,109,156,151"/>
-<area shape="rect" id="node3" href="arrays__input_8h.html" title="c_common/arrays_input.h" alt="" coords="180,117,352,143"/>
-<area shape="rect" id="node5" href="debug__macro_8h.html" title="c_common/debug_macro.h" alt="" coords="526,117,705,143"/>
+<div class="center"><img src="get__check__data_8c__incl.png" border="0" usemap="#_2home_2nazii_2PGR_2src_2common_2get__check__data_8c" alt=""/></div>
+<map name="_2home_2nazii_2PGR_2src_2common_2get__check__data_8c" id="_2home_2nazii_2PGR_2src_2common_2get__check__data_8c">
+<area shape="rect" id="node2" href="get__check__data_8h.html" title="c_common/get_check\l_data.h" alt="" coords="5,95,156,136"/>
+<area shape="rect" id="node3" href="arrays__input_8h.html" title="c_common/arrays_input.h" alt="" coords="180,102,352,129"/>
+<area shape="rect" id="node5" href="debug__macro_8h.html" title="c_common/debug_macro.h" alt="" coords="526,102,705,129"/>
 </map>
 </div>
 </div>
@@ -714,17 +714,17 @@ Function returns the values of the specified columns in array. </p>
 
 <p class="definition">Definition at line <a class="el" href="get__check__data_8c_source.html#l00347">347</a> of file <a class="el" href="get__check__data_8c_source.html">get_check_data.c</a>.</p>
 
-<p class="reference">References <a class="el" href="column__info__t_8h_source.html#l00072">Column_info_t::colNumber</a>, and <a class="el" href="arrays__input_8c_source.html#l00124">pgr_get_bigIntArray()</a>.</p>
+<p class="reference">References <a class="el" href="column__info__t_8h_source.html#l00072">Column_info_t::colNumber</a>, and <a class="el" href="arrays__input_8c_source.html#l00195">pgr_get_bigIntArray()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="restrictions__input_8c_source.html#l00035">fetch_restriction()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;                            {</div><div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    <span class="keywordtype">bool</span> is_null = <span class="keyword">false</span>;</div><div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;</div><div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    Datum raw_array = SPI_getbinval(*tuple, *tupdesc, info.<a class="code" href="structColumn__info__t.html#a64816c9aa1e9203df8ed391fb9c6e849">colNumber</a>, &amp;is_null);</div><div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    ArrayType *pg_array = DatumGetArrayTypeP(raw_array);</div><div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;</div><div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    <span class="keywordflow">return</span> (int64_t*) <a class="code" href="arrays__input_8c.html#a8b3b624e84ed449440408d11251384c1">pgr_get_bigIntArray</a>(the_size, pg_array);</div><div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;}</div><div class="ttc" id="arrays__input_8c_html_a8b3b624e84ed449440408d11251384c1"><div class="ttname"><a href="arrays__input_8c.html#a8b3b624e84ed449440408d11251384c1">pgr_get_bigIntArray</a></div><div class="ttdeci">int64_t * pgr_get_bigIntArray(size_t *arrlen, ArrayType *input)</div><div class="ttdoc">enforces the input array to be NOT empty </div><div class="ttdef"><b>Definition:</b> <a href="arrays__input_8c_source.html#l00124">arrays_input.c:124</a></div></div>
+<div class="fragment"><div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;                            {</div><div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    <span class="keywordtype">bool</span> is_null = <span class="keyword">false</span>;</div><div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;</div><div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    Datum raw_array = SPI_getbinval(*tuple, *tupdesc, info.<a class="code" href="structColumn__info__t.html#a64816c9aa1e9203df8ed391fb9c6e849">colNumber</a>, &amp;is_null);</div><div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    ArrayType *pg_array = DatumGetArrayTypeP(raw_array);</div><div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;</div><div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    <span class="keywordflow">return</span> (int64_t*) <a class="code" href="arrays__input_8c.html#a8b3b624e84ed449440408d11251384c1">pgr_get_bigIntArray</a>(the_size, pg_array);</div><div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;}</div><div class="ttc" id="arrays__input_8c_html_a8b3b624e84ed449440408d11251384c1"><div class="ttname"><a href="arrays__input_8c.html#a8b3b624e84ed449440408d11251384c1">pgr_get_bigIntArray</a></div><div class="ttdeci">int64_t * pgr_get_bigIntArray(size_t *arrlen, ArrayType *input)</div><div class="ttdoc"> Function returns the values of input array by checking its overflow conditions but array can&amp;#39;t empty...</div><div class="ttdef"><b>Definition:</b> <a href="arrays__input_8c_source.html#l00195">arrays_input.c:195</a></div></div>
 <div class="ttc" id="structColumn__info__t_html_a64816c9aa1e9203df8ed391fb9c6e849"><div class="ttname"><a href="structColumn__info__t.html#a64816c9aa1e9203df8ed391fb9c6e849">Column_info_t::colNumber</a></div><div class="ttdeci">int colNumber</div><div class="ttdef"><b>Definition:</b> <a href="column__info__t_8h_source.html#l00072">column_info_t.h:72</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="get__check__data_8c_a565f26aa924fff943c074855fea04d59_cgraph.png" border="0" usemap="#get__check__data_8c_a565f26aa924fff943c074855fea04d59_cgraph" alt=""/></div>
 <map name="get__check__data_8c_a565f26aa924fff943c074855fea04d59_cgraph" id="get__check__data_8c_a565f26aa924fff943c074855fea04d59_cgraph">
-<area shape="rect" id="node2" href="arrays__input_8c.html#a8b3b624e84ed449440408d11251384c1" title="enforces the input array to be NOT empty " alt="" coords="199,5,333,32"/>
+<area shape="rect" id="node2" href="arrays__input_8c.html#a8b3b624e84ed449440408d11251384c1" title=" Function returns the values of input array by checking its overflow conditions but array can&#39;t empty..." alt="" coords="199,5,333,32"/>
 </map>
 </div>
 <div class="dynheader">
@@ -954,7 +954,7 @@ Here is the caller graph for this function:</div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_fdedb0aba14d44ce9d99bc100e026e6a.html">common</a></li><li class="navelem"><a class="el" href="get__check__data_8c.html">get_check_data.c</a></li>
-    <li class="footer">Generated on Fri Jan 19 2018 03:21:16 for PGROUTING by
+    <li class="footer">Generated on Mon Jan 22 2018 04:23:59 for PGROUTING by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
   </ul>

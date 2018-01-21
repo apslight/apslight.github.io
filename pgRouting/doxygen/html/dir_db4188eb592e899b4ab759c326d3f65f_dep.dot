@@ -1,4 +1,4 @@
-digraph "/home/nazii/pgrouting/src/withPoints" {
+digraph "/home/nazii/PGR/src/withPoints" {
   compound=true
   node [ fontsize="10", fontname="Helvetica"];
   edge [ labelfontsize="10", labelfontname="Helvetica"];
