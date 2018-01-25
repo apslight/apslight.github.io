@@ -5,5 +5,5 @@ digraph "fetch_column_info"
   rankdir="LR";
   Node56 [label="fetch_column_info",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node56 -> Node57 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node57 [label="column_found",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$get__check__data_8c.html#a242b8e2225de6f8c47cf3133c440588e",tooltip=" Function will check whether the colNumber represents any specified column or NULL (SPI_ERROR_NOATTRI..."];
+  Node57 [label="column_found",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$get__check__data_8c.html#a242b8e2225de6f8c47cf3133c440588e",tooltip=" Function will check whether the colNumber represent any specific column or NULL (SPI_ERROR_NOATTRIBU..."];
 }

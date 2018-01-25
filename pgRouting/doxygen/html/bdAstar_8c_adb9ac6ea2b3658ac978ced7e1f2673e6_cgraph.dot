@@ -9,7 +9,7 @@ digraph "process"
   Node50 -> Node52 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node52 [label="do_pgr_bdAstar",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$bdAstar__driver_8cpp.html#af70575109db45df27a9f869374078621"];
   Node50 -> Node75 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node75 [label="pgr_get_bigIntArray",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$arrays__input_8c.html#a8b3b624e84ed449440408d11251384c1",tooltip=" Function returns the values of input array by checking its overflow conditions but array can&#39;t empty..."];
+  Node75 [label="pgr_get_bigIntArray",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$arrays__input_8c.html#a8b3b624e84ed449440408d11251384c1",tooltip="enforces the input array to be NOT empty "];
   Node50 -> Node78 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node78 [label="pgr_get_edges_xy",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$edges__input_8c.html#a68e9476cc43d0bcc87a9f60734f76b38",tooltip="Edges with x, y vertices values. "];
   Node50 -> Node93 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];

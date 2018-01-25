@@ -7,7 +7,7 @@ digraph "pgr_get_bigIntArray"
   Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node18 [label="compute_trsp",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$new__trsp_8c.html#a4b6c631c8d12b27e5c230ecdb589d414"];
   Node17 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node20 [label="pgr_SPI_getBigIntArr",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$get__check__data_8h.html#a565f26aa924fff943c074855fea04d59",tooltip=" Function returns the values of the specified columns in array. "];
+  Node20 [label="pgr_SPI_getBigIntArr",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$get__check__data_8h.html#a565f26aa924fff943c074855fea04d59",tooltip=" Function returns the values of specified columns in array. "];
   Node17 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node23 [label="process",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$astar_8c.html#aaaf7184e9c115d16cd3d635bdaadf808"];
 }

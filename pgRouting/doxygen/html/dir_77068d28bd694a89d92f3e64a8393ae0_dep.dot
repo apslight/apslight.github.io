@@ -1,4 +1,4 @@
-digraph "/home/nazii/PGR/include/drivers/driving_distance" {
+digraph "/home/nazii/pgrouting/include/drivers/driving_distance" {
   compound=true
   node [ fontsize="10", fontname="Helvetica"];
   edge [ labelfontsize="10", labelfontname="Helvetica"];

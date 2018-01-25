@@ -1,7 +1,7 @@
-<map id="/home/nazii/PGR/include/vrp/vehicle_pickDeliver.h" name="/home/nazii/PGR/include/vrp/vehicle_pickDeliver.h">
-<area shape="rect" id="node2" href="$pgr__pickDeliver_8cpp.html" title="/home/nazii/PGR/src\l/pickDeliver/pgr_pickDeliver.cpp" alt="" coords="304,288,515,329"/>
-<area shape="rect" id="node3" href="$vehicle__pickDeliver_8cpp.html" title="/home/nazii/PGR/src\l/pickDeliver/vehicle\l_pickDeliver.cpp" alt="" coords="28,95,172,151"/>
-<area shape="rect" id="node4" href="$book__keeping_8h.html" title="/home/nazii/PGR/include\l/vrp/book_keeping.h" alt="" coords="197,102,364,143"/>
-<area shape="rect" id="node5" href="$fleet_8h.html" title="/home/nazii/PGR/include\l/vrp/fleet.h" alt="" coords="388,102,554,143"/>
-<area shape="rect" id="node6" href="$solution_8h.html" title="/home/nazii/PGR/include\l/vrp/solution.h" alt="" coords="448,199,614,240"/>
+<map id="/home/nazii/pgrouting/include/vrp/vehicle_pickDeliver.h" name="/home/nazii/pgrouting/include/vrp/vehicle_pickDeliver.h">
+<area shape="rect" id="node2" href="$pgr__pickDeliver_8cpp.html" title="/home/nazii/pgrouting\l/src/pickDeliver/pgr\l_pickDeliver.cpp" alt="" coords="364,303,510,359"/>
+<area shape="rect" id="node3" href="$vehicle__pickDeliver_8cpp.html" title="/home/nazii/pgrouting\l/src/pickDeliver/vehicle\l_pickDeliver.cpp" alt="" coords="30,109,188,165"/>
+<area shape="rect" id="node4" href="$book__keeping_8h.html" title="/home/nazii/pgrouting\l/include/vrp/book_keeping.h" alt="" coords="213,117,397,158"/>
+<area shape="rect" id="node5" href="$fleet_8h.html" title="/home/nazii/pgrouting\l/include/vrp/fleet.h" alt="" coords="421,117,568,158"/>
+<area shape="rect" id="node6" href="$solution_8h.html" title="/home/nazii/pgrouting\l/include/vrp/solution.h" alt="" coords="474,213,624,255"/>
 </map>

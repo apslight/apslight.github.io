@@ -1,6 +1,6 @@
-<map id="/home/nazii/PGR/include/vrp/base_node.h" name="/home/nazii/PGR/include/vrp/base_node.h">
-<area shape="rect" id="node2" href="$base__node_8cpp.html" title="/home/nazii/PGR/src\l/pickDeliver/base_node.cpp" alt="" coords="5,95,188,136"/>
-<area shape="rect" id="node3" href="$dnode_8h.html" title="/home/nazii/PGR/include\l/vrp/dnode.h" alt="" coords="212,95,379,136"/>
-<area shape="rect" id="node4" href="$node_8h.html" title="/home/nazii/PGR/include\l/vrp/node.h" alt="" coords="403,95,569,136"/>
-<area shape="rect" id="node5" href="$pd__orders_8h.html" title="/home/nazii/PGR/include\l/vrp/pd_orders.h" alt="" coords="593,95,760,136"/>
+<map id="/home/nazii/pgrouting/include/vrp/base_node.h" name="/home/nazii/pgrouting/include/vrp/base_node.h">
+<area shape="rect" id="node2" href="$base__node_8cpp.html" title="/home/nazii/pgrouting\l/src/pickDeliver/base\l_node.cpp" alt="" coords="5,95,152,151"/>
+<area shape="rect" id="node3" href="$dnode_8h.html" title="/home/nazii/pgrouting\l/include/vrp/dnode.h" alt="" coords="176,102,323,143"/>
+<area shape="rect" id="node4" href="$node_8h.html" title="/home/nazii/pgrouting\l/include/vrp/node.h" alt="" coords="347,102,493,143"/>
+<area shape="rect" id="node5" href="$pd__orders_8h.html" title="/home/nazii/pgrouting\l/include/vrp/pd_orders.h" alt="" coords="518,102,679,143"/>
 </map>

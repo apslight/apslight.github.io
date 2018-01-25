@@ -1,8 +1,8 @@
-<map id="/home/nazii/PGR/include/c_types/pickDeliver/pickDeliveryOrders_t.h" name="/home/nazii/PGR/include/c_types/pickDeliver/pickDeliveryOrders_t.h">
-<area shape="rect" id="node2" href="$orders__input_8h.html" title="/home/nazii/PGR/include\l/c_common/orders_input.h" alt="" coords="5,117,181,158"/>
-<area shape="rect" id="node3" href="$pickDeliver__driver_8h.html" title="/home/nazii/PGR/include\l/drivers/pickDeliver/pickDeliver\l_driver.h" alt="" coords="205,109,408,165"/>
-<area shape="rect" id="node4" href="$pickDeliverEuclidean__driver_8h.html" title="/home/nazii/PGR/include\l/drivers/pickDeliver/pickDeliver\lEuclidean_driver.h" alt="" coords="432,109,635,165"/>
-<area shape="rect" id="node5" href="$pd__orders_8h.html" title="/home/nazii/PGR/include\l/vrp/pd_orders.h" alt="" coords="659,117,826,158"/>
-<area shape="rect" id="node6" href="$pgr__pickDeliver_8h.html" title="/home/nazii/PGR/include\l/vrp/pgr_pickDeliver.h" alt="" coords="719,213,886,255"/>
-<area shape="rect" id="node7" href="$tw__node_8h.html" title="/home/nazii/PGR/include\l/vrp/tw_node.h" alt="" coords="902,117,1069,158"/>
+<map id="/home/nazii/pgrouting/include/c_types/pickDeliver/pickDeliveryOrders_t.h" name="/home/nazii/pgrouting/include/c_types/pickDeliver/pickDeliveryOrders_t.h">
+<area shape="rect" id="node2" href="$orders__input_8h.html" title="/home/nazii/pgrouting\l/include/c_common/orders\l_input.h" alt="" coords="5,109,180,165"/>
+<area shape="rect" id="node3" href="$pickDeliver__driver_8h.html" title="/home/nazii/pgrouting\l/include/drivers/pickDeliver\l/pickDeliver_driver.h" alt="" coords="205,109,383,165"/>
+<area shape="rect" id="node4" href="$pickDeliverEuclidean__driver_8h.html" title="/home/nazii/pgrouting\l/include/drivers/pickDeliver\l/pickDeliverEuclidean_driver.h" alt="" coords="408,109,607,165"/>
+<area shape="rect" id="node5" href="$pd__orders_8h.html" title="/home/nazii/pgrouting\l/include/vrp/pd_orders.h" alt="" coords="631,117,792,158"/>
+<area shape="rect" id="node6" href="$pgr__pickDeliver_8h.html" title="/home/nazii/pgrouting\l/include/vrp/pgr_pickDeliver.h" alt="" coords="673,213,867,255"/>
+<area shape="rect" id="node7" href="$tw__node_8h.html" title="/home/nazii/pgrouting\l/include/vrp/tw_node.h" alt="" coords="868,117,1021,158"/>
 </map>

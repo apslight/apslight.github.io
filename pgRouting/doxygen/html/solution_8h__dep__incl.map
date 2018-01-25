@@ -1,8 +1,8 @@
-<map id="/home/nazii/PGR/include/vrp/solution.h" name="/home/nazii/PGR/include/vrp/solution.h">
-<area shape="rect" id="node2" href="$initial__solution_8cpp.html" title="/home/nazii/PGR/src\l/pickDeliver/initial\l_solution.cpp" alt="" coords="5,184,149,240"/>
-<area shape="rect" id="node3" href="$optimize_8cpp.html" title="/home/nazii/PGR/src\l/pickDeliver/optimize.cpp" alt="" coords="409,191,578,233"/>
-<area shape="rect" id="node4" href="$pgr__pickDeliver_8cpp.html" title="/home/nazii/PGR/src\l/pickDeliver/pgr_pickDeliver.cpp" alt="" coords="173,191,384,233"/>
-<area shape="rect" id="node5" href="$solution_8cpp.html" title="/home/nazii/PGR/src\l/pickDeliver/solution.cpp" alt="" coords="603,191,768,233"/>
-<area shape="rect" id="node6" href="$initial__solution_8h.html" title="/home/nazii/PGR/include\l/vrp/initial_solution.h" alt="" coords="95,95,262,136"/>
-<area shape="rect" id="node7" href="$pgr__pickDeliver_8h.html" title="/home/nazii/PGR/include\l/vrp/pgr_pickDeliver.h" alt="" coords="338,95,505,136"/>
+<map id="/home/nazii/pgrouting/include/vrp/solution.h" name="/home/nazii/pgrouting/include/vrp/solution.h">
+<area shape="rect" id="node2" href="$initial__solution_8cpp.html" title="/home/nazii/pgrouting\l/src/pickDeliver/initial\l_solution.cpp" alt="" coords="5,199,152,255"/>
+<area shape="rect" id="node3" href="$optimize_8cpp.html" title="/home/nazii/pgrouting\l/src/pickDeliver/optimize.cpp" alt="" coords="347,206,538,247"/>
+<area shape="rect" id="node4" href="$pgr__pickDeliver_8cpp.html" title="/home/nazii/pgrouting\l/src/pickDeliver/pgr\l_pickDeliver.cpp" alt="" coords="176,199,323,255"/>
+<area shape="rect" id="node5" href="$solution_8cpp.html" title="/home/nazii/pgrouting\l/src/pickDeliver/solution.cpp" alt="" coords="563,206,749,247"/>
+<area shape="rect" id="node6" href="$initial__solution_8h.html" title="/home/nazii/pgrouting\l/include/vrp/initial\l_solution.h" alt="" coords="91,95,237,151"/>
+<area shape="rect" id="node7" href="$pgr__pickDeliver_8h.html" title="/home/nazii/pgrouting\l/include/vrp/pgr_pickDeliver.h" alt="" coords="312,102,507,143"/>
 </map>

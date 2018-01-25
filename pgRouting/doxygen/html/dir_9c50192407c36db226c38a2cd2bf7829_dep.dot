@@ -1,4 +1,4 @@
-digraph "/home/nazii/PGR/include/c_common" {
+digraph "/home/nazii/pgrouting/include/c_common" {
   compound=true
   node [ fontsize="10", fontname="Helvetica"];
   edge [ labelfontsize="10", labelfontname="Helvetica"];

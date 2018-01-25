@@ -1,6 +1,6 @@
-<map id="/home/nazii/PGR/include/c_common/points_input.h" name="/home/nazii/PGR/include/c_common/points_input.h">
-<area shape="rect" id="node2" href="$points__input_8c.html" title="/home/nazii/PGR/src\l/common/points_input.c" alt="" coords="5,102,167,143"/>
-<area shape="rect" id="node3" href="$many__to__dist__withPointsDD_8c.html" title="/home/nazii/PGR/src\l/driving_distance/many\l_to_dist_withPointsDD.c" alt="" coords="191,95,357,151"/>
-<area shape="rect" id="node4" href="$withPoints__ksp_8c.html" title="/home/nazii/PGR/src\l/ksp/withPoints_ksp.c" alt="" coords="381,102,532,143"/>
-<area shape="rect" id="node5" href="$withPoints_8c.html" title="/home/nazii/PGR/src\l/withPoints/withPoints.c" alt="" coords="557,102,719,143"/>
+<map id="/home/nazii/pgrouting/include/c_common/points_input.h" name="/home/nazii/pgrouting/include/c_common/points_input.h">
+<area shape="rect" id="node2" href="$points__input_8c.html" title="/home/nazii/pgrouting\l/src/common/points_input.c" alt="" coords="5,117,188,158"/>
+<area shape="rect" id="node3" href="$many__to__dist__withPointsDD_8c.html" title="/home/nazii/pgrouting\l/src/driving_distance\l/many_to_dist_withPointsDD.c" alt="" coords="213,109,415,165"/>
+<area shape="rect" id="node4" href="$withPoints__ksp_8c.html" title="/home/nazii/pgrouting\l/src/ksp/withPoints_ksp.c" alt="" coords="439,117,613,158"/>
+<area shape="rect" id="node5" href="$withPoints_8c.html" title="/home/nazii/pgrouting\l/src/withPoints/withPoints.c" alt="" coords="637,117,823,158"/>
 </map>

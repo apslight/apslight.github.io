@@ -1,6 +1,6 @@
 <map id="process" name="process">
 <area shape="rect" id="node2" href="$dijkstra__driver_8cpp.html#a610a470a45977a0ffd7cf0e6b077ba99" title="do_pgr_many_to_many\l_dijkstra" alt="" coords="125,5,282,47"/>
-<area shape="rect" id="node3" href="$arrays__input_8c.html#a8b3b624e84ed449440408d11251384c1" title=" Function returns the values of input array by checking its overflow conditions but array can&#39;t empty..." alt="" coords="136,71,271,98"/>
+<area shape="rect" id="node3" href="$arrays__input_8c.html#a8b3b624e84ed449440408d11251384c1" title="enforces the input array to be NOT empty " alt="" coords="136,71,271,98"/>
 <area shape="rect" id="node4" href="$edges__input_8c.html#af663e291b6bdfe777789be38b6bfcf76" title="basic edge_sql " alt="" coords="150,122,257,149"/>
 <area shape="rect" id="node5" href="$edges__input_8c.html#a8b346503f2203a8bcda59fe43298ef9a" title="pgr_get_edges_reversed" alt="" coords="121,173,285,199"/>
 <area shape="rect" id="node6" href="$e__report_8c.html#aa7833fe4baf65aa901e1129575e7deb2" title="notice &amp; error " alt="" coords="143,223,264,250"/>

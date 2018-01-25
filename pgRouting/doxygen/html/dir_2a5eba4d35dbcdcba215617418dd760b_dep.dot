@@ -1,4 +1,4 @@
-digraph "/home/nazii/PGR/include/allpairs" {
+digraph "/home/nazii/pgrouting/include/allpairs" {
   compound=true
   node [ fontsize="10", fontname="Helvetica"];
   edge [ labelfontsize="10", labelfontname="Helvetica"];

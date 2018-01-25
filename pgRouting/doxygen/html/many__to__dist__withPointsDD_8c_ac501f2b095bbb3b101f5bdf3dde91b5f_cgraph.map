@@ -2,7 +2,7 @@
 <area shape="rect" id="node2" href="$withPoints__dd__driver_8cpp.html#ada77cd2ecc427204ad1f5697ca25f6df" title="do_pgr_many_withPointsDD" alt="" coords="121,5,309,32"/>
 <area shape="rect" id="node3" href="$get__new__queries_8cpp.html#af9fe4d67976c09145e7cf3ac5ef86c4d" title="estimate_drivingSide" alt="" coords="144,56,287,83"/>
 <area shape="rect" id="node4" href="$get__new__queries_8cpp.html#abb3ebd1def182bad8e1785197af280d4" title="get_new_queries" alt="" coords="155,107,275,133"/>
-<area shape="rect" id="node5" href="$arrays__input_8c.html#a8b3b624e84ed449440408d11251384c1" title=" Function returns the values of input array by checking its overflow conditions but array can&#39;t empty..." alt="" coords="148,157,283,184"/>
+<area shape="rect" id="node5" href="$arrays__input_8c.html#a8b3b624e84ed449440408d11251384c1" title="enforces the input array to be NOT empty " alt="" coords="148,157,283,184"/>
 <area shape="rect" id="node6" href="$edges__input_8c.html#af663e291b6bdfe777789be38b6bfcf76" title="basic edge_sql " alt="" coords="162,208,269,235"/>
 <area shape="rect" id="node7" href="$points__input_8c.html#ac232d3ed3b477a88ecbb17992c083aa8" title="pgr_get_points " alt="" coords="162,259,269,285"/>
 <area shape="rect" id="node8" href="$e__report_8c.html#aa7833fe4baf65aa901e1129575e7deb2" title="notice &amp; error " alt="" coords="155,309,276,336"/>

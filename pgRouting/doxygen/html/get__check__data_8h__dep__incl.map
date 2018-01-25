@@ -1,10 +1,10 @@
-<map id="/home/nazii/PGR/include/c_common/get_check_data.h" name="/home/nazii/PGR/include/c_common/get_check_data.h">
-<area shape="rect" id="node2" href="$coordinates__input_8c.html" title="/home/nazii/PGR/src\l/common/coordinates\l_input.c" alt="" coords="5,95,152,151"/>
-<area shape="rect" id="node3" href="$edges__input_8c.html" title="/home/nazii/PGR/src\l/common/edges_input.c" alt="" coords="177,102,338,143"/>
-<area shape="rect" id="node4" href="$get__check__data_8c.html" title="/home/nazii/PGR/src\l/common/get_check_data.c" alt="" coords="362,102,545,143"/>
-<area shape="rect" id="node5" href="$matrixRows__input_8c.html" title="/home/nazii/PGR/src\l/common/matrixRows_input.c" alt="" coords="569,102,765,143"/>
-<area shape="rect" id="node6" href="$orders__input_8c.html" title="/home/nazii/PGR/src\l/common/orders_input.c" alt="" coords="789,102,952,143"/>
-<area shape="rect" id="node7" href="$points__input_8c.html" title="/home/nazii/PGR/src\l/common/points_input.c" alt="" coords="977,102,1138,143"/>
-<area shape="rect" id="node8" href="$restrictions__input_8c.html" title="/home/nazii/PGR/src\l/common/restrictions\l_input.c" alt="" coords="1163,95,1307,151"/>
-<area shape="rect" id="node9" href="$vehicles__input_8c.html" title="/home/nazii/PGR/src\l/common/vehicles_input.c" alt="" coords="1331,102,1506,143"/>
+<map id="/home/nazii/pgrouting/include/c_common/get_check_data.h" name="/home/nazii/pgrouting/include/c_common/get_check_data.h">
+<area shape="rect" id="node2" href="$coordinates__input_8c.html" title="/home/nazii/pgrouting\l/src/common/coordinates\l_input.c" alt="" coords="5,109,175,165"/>
+<area shape="rect" id="node3" href="$edges__input_8c.html" title="/home/nazii/pgrouting\l/src/common/edges_input.c" alt="" coords="199,117,381,158"/>
+<area shape="rect" id="node4" href="$get__check__data_8c.html" title="/home/nazii/pgrouting\l/src/common/get_check\l_data.c" alt="" coords="406,109,569,165"/>
+<area shape="rect" id="node5" href="$matrixRows__input_8c.html" title="/home/nazii/pgrouting\l/src/common/matrixRows\l_input.c" alt="" coords="593,109,765,165"/>
+<area shape="rect" id="node6" href="$orders__input_8c.html" title="/home/nazii/pgrouting\l/src/common/orders_input.c" alt="" coords="790,117,974,158"/>
+<area shape="rect" id="node7" href="$points__input_8c.html" title="/home/nazii/pgrouting\l/src/common/points_input.c" alt="" coords="999,117,1181,158"/>
+<area shape="rect" id="node8" href="$restrictions__input_8c.html" title="/home/nazii/pgrouting\l/src/common/restrictions\l_input.c" alt="" coords="1205,109,1372,165"/>
+<area shape="rect" id="node9" href="$vehicles__input_8c.html" title="/home/nazii/pgrouting\l/src/common/vehicles\l_input.c" alt="" coords="1396,109,1547,165"/>
 </map>

@@ -1,4 +1,4 @@
-<map id="/home/nazii/PGR/include/c_common/coordinates_input.h" name="/home/nazii/PGR/include/c_common/coordinates_input.h">
-<area shape="rect" id="node2" href="$coordinates__input_8c.html" title="/home/nazii/PGR/src\l/common/coordinates\l_input.c" alt="" coords="5,109,152,165"/>
-<area shape="rect" id="node3" href="$eucledianTSP_8c.html" title="/home/nazii/PGR/src\l/tsp/eucledianTSP.c" alt="" coords="176,117,320,158"/>
+<map id="/home/nazii/pgrouting/include/c_common/coordinates_input.h" name="/home/nazii/pgrouting/include/c_common/coordinates_input.h">
+<area shape="rect" id="node2" href="$coordinates__input_8c.html" title="/home/nazii/pgrouting\l/src/common/coordinates\l_input.c" alt="" coords="5,109,175,165"/>
+<area shape="rect" id="node3" href="$eucledianTSP_8c.html" title="/home/nazii/pgrouting\l/src/tsp/eucledianTSP.c" alt="" coords="199,117,362,158"/>
 </map>

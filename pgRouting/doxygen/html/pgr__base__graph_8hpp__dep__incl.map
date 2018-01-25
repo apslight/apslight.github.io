@@ -1,13 +1,13 @@
-<map id="/home/nazii/PGR/include/cpp_common/pgr_base_graph.hpp" name="/home/nazii/PGR/include/cpp_common/pgr_base_graph.hpp">
-<area shape="rect" id="node2" href="$bdDijkstra__driver_8cpp.html" title="/home/nazii/PGR/src\l/bdDijkstra/bdDijkstra\l_driver.cpp" alt="" coords="5,95,153,151"/>
-<area shape="rect" id="node3" href="$ksp__driver_8cpp.html" title="/home/nazii/PGR/src\l/ksp/ksp_driver.cpp" alt="" coords="178,102,322,143"/>
-<area shape="rect" id="node4" href="$pgr__allpairs_8hpp.html" title="/home/nazii/PGR/include\l/allpairs/pgr_allpairs.hpp" alt="" coords="179,199,345,240"/>
-<area shape="rect" id="node5" href="$pgr__astar_8hpp.html" title="/home/nazii/PGR/include\l/astar/pgr_astar.hpp" alt="" coords="369,199,536,240"/>
-<area shape="rect" id="node6" href="$pgr__componentsGraph_8hpp.html" title="/home/nazii/PGR/include\l/components/pgr_componentsGraph.hpp" alt="" coords="805,102,1063,143"/>
-<area shape="rect" id="node7" href="$pgr__contractionGraph_8hpp.html" title="/home/nazii/PGR/include\l/contraction/pgr_contraction\lGraph.hpp" alt="" coords="1087,95,1269,151"/>
-<area shape="rect" id="node8" href="$basePath__SSEC_8hpp.html" title="/home/nazii/PGR/include\l/cpp_common/basePath_SSEC.hpp" alt="" coords="447,102,679,143"/>
-<area shape="rect" id="node9" href="$pgr__bidirectional_8hpp.html" title="/home/nazii/PGR/include\l/cpp_common/pgr_bidirectional.hpp" alt="" coords="561,199,787,240"/>
-<area shape="rect" id="node10" href="$pgr__dijkstra_8hpp.html" title="/home/nazii/PGR/include\l/dijkstra/pgr_dijkstra.hpp" alt="" coords="812,199,979,240"/>
-<area shape="rect" id="node11" href="$pgr__lineGraph_8hpp.html" title="/home/nazii/PGR/include\l/lineGraph/pgr_lineGraph.hpp" alt="" coords="1293,102,1484,143"/>
-<area shape="rect" id="node12" href="$pgr__lineGraphFull_8hpp.html" title="/home/nazii/PGR/include\l/lineGraph/pgr_lineGraphFull.hpp" alt="" coords="1509,102,1719,143"/>
+<map id="/home/nazii/pgrouting/include/cpp_common/pgr_base_graph.hpp" name="/home/nazii/pgrouting/include/cpp_common/pgr_base_graph.hpp">
+<area shape="rect" id="node2" href="$bdDijkstra__driver_8cpp.html" title="/home/nazii/pgrouting\l/src/bdDijkstra/bdDijkstra\l_driver.cpp" alt="" coords="5,109,176,165"/>
+<area shape="rect" id="node3" href="$ksp__driver_8cpp.html" title="/home/nazii/pgrouting\l/src/ksp/ksp_driver.cpp" alt="" coords="201,117,359,158"/>
+<area shape="rect" id="node4" href="$pgr__allpairs_8hpp.html" title="/home/nazii/pgrouting\l/include/allpairs/pgr\l_allpairs.hpp" alt="" coords="225,213,372,269"/>
+<area shape="rect" id="node5" href="$pgr__astar_8hpp.html" title="/home/nazii/pgrouting\l/include/astar/pgr_astar.hpp" alt="" coords="397,221,579,262"/>
+<area shape="rect" id="node6" href="$pgr__componentsGraph_8hpp.html" title="/home/nazii/pgrouting\l/include/components/pgr\l_componentsGraph.hpp" alt="" coords="819,109,983,165"/>
+<area shape="rect" id="node7" href="$pgr__contractionGraph_8hpp.html" title="/home/nazii/pgrouting\l/include/contraction\l/pgr_contractionGraph.hpp" alt="" coords="1007,109,1182,165"/>
+<area shape="rect" id="node8" href="$basePath__SSEC_8hpp.html" title="/home/nazii/pgrouting\l/include/cpp_common/basePath\l_SSEC.hpp" alt="" coords="485,109,693,165"/>
+<area shape="rect" id="node9" href="$pgr__bidirectional_8hpp.html" title="/home/nazii/pgrouting\l/include/cpp_common/pgr\l_bidirectional.hpp" alt="" coords="604,213,775,269"/>
+<area shape="rect" id="node10" href="$pgr__dijkstra_8hpp.html" title="/home/nazii/pgrouting\l/include/dijkstra/pgr\l_dijkstra.hpp" alt="" coords="799,213,945,269"/>
+<area shape="rect" id="node11" href="$pgr__lineGraph_8hpp.html" title="/home/nazii/pgrouting\l/include/lineGraph/pgr\l_lineGraph.hpp" alt="" coords="1206,109,1354,165"/>
+<area shape="rect" id="node12" href="$pgr__lineGraphFull_8hpp.html" title="/home/nazii/pgrouting\l/include/lineGraph/pgr\l_lineGraphFull.hpp" alt="" coords="1378,109,1526,165"/>
 </map>

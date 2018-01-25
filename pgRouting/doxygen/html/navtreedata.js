@@ -34,7 +34,7 @@ var NAVTREE =
       [ "Setup Travis", "index.html#setup_travis", null ],
       [ "File conventions", "index.html#file_convetions", null ]
     ] ],
-    [ "Purpose of this directory", "md__home_nazii_PGR_include_c_common_README.html", null ],
+    [ "Purpose of this directory", "md__home_nazii_pgrouting_include_c_common_README.html", null ],
     [ "Contraction", "Contraction.html", [
       [ "Introduction", "Contraction.html#contraction_intro", [
         [ "The contraction skeleton", "Contraction.html#contraction_skeleton", null ],

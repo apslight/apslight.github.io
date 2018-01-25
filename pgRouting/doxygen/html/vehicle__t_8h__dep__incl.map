@@ -1,7 +1,7 @@
-<map id="/home/nazii/PGR/include/c_types/pickDeliver/vehicle_t.h" name="/home/nazii/PGR/include/c_types/pickDeliver/vehicle_t.h">
-<area shape="rect" id="node2" href="$vehicles__input_8h.html" title="/home/nazii/PGR/include\l/c_common/vehicles_input.h" alt="" coords="5,102,193,143"/>
-<area shape="rect" id="node3" href="$pickDeliver__driver_8h.html" title="/home/nazii/PGR/include\l/drivers/pickDeliver/pickDeliver\l_driver.h" alt="" coords="218,95,421,151"/>
-<area shape="rect" id="node4" href="$pickDeliverEuclidean__driver_8h.html" title="/home/nazii/PGR/include\l/drivers/pickDeliver/pickDeliver\lEuclidean_driver.h" alt="" coords="445,95,647,151"/>
-<area shape="rect" id="node5" href="$pgr__pickDeliver_8h.html" title="/home/nazii/PGR/include\l/vrp/pgr_pickDeliver.h" alt="" coords="672,102,839,143"/>
-<area shape="rect" id="node6" href="$tw__node_8h.html" title="/home/nazii/PGR/include\l/vrp/tw_node.h" alt="" coords="863,102,1029,143"/>
+<map id="/home/nazii/pgrouting/include/c_types/pickDeliver/vehicle_t.h" name="/home/nazii/pgrouting/include/c_types/pickDeliver/vehicle_t.h">
+<area shape="rect" id="node2" href="$vehicles__input_8h.html" title="/home/nazii/pgrouting\l/include/c_common/vehicles\l_input.h" alt="" coords="5,109,192,165"/>
+<area shape="rect" id="node3" href="$pickDeliver__driver_8h.html" title="/home/nazii/pgrouting\l/include/drivers/pickDeliver\l/pickDeliver_driver.h" alt="" coords="216,109,395,165"/>
+<area shape="rect" id="node4" href="$pickDeliverEuclidean__driver_8h.html" title="/home/nazii/pgrouting\l/include/drivers/pickDeliver\l/pickDeliverEuclidean_driver.h" alt="" coords="419,109,618,165"/>
+<area shape="rect" id="node5" href="$pgr__pickDeliver_8h.html" title="/home/nazii/pgrouting\l/include/vrp/pgr_pickDeliver.h" alt="" coords="643,117,837,158"/>
+<area shape="rect" id="node6" href="$tw__node_8h.html" title="/home/nazii/pgrouting\l/include/vrp/tw_node.h" alt="" coords="862,117,1015,158"/>
 </map>

@@ -5,5 +5,5 @@ digraph "pgr_get_bigIntArray_allowEmpty"
   rankdir="LR";
   Node25 [label="pgr_get_bigIntArray\l_allowEmpty",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node25 -> Node26 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node26 [label="pgr_get_bigIntArr",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$arrays__input_8c.html#a1ef3cfe2908f32befdf4f1aabacd1d21",tooltip=" Function returns the values of input array by checking its overflow conditions. "];
+  Node26 [label="pgr_get_bigIntArr",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$arrays__input_8c.html#a1ef3cfe2908f32befdf4f1aabacd1d21"];
 }

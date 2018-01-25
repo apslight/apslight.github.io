@@ -1,5 +1,5 @@
-<map id="/home/nazii/PGR/include/c_common/orders_input.h" name="/home/nazii/PGR/include/c_common/orders_input.h">
-<area shape="rect" id="node2" href="$orders__input_8c.html" title="/home/nazii/PGR/src\l/common/orders_input.c" alt="" coords="5,95,168,136"/>
-<area shape="rect" id="node3" href="$pickDeliver_8c.html" title="/home/nazii/PGR/src\l/pickDeliver/pickDeliver.c" alt="" coords="192,95,363,136"/>
-<area shape="rect" id="node4" href="$pickDeliverEuclidean_8c.html" title="/home/nazii/PGR/src\l/pickDeliver/pickDeliverEuclidean.c" alt="" coords="387,95,615,136"/>
+<map id="/home/nazii/pgrouting/include/c_common/orders_input.h" name="/home/nazii/pgrouting/include/c_common/orders_input.h">
+<area shape="rect" id="node2" href="$orders__input_8c.html" title="/home/nazii/pgrouting\l/src/common/orders_input.c" alt="" coords="5,117,189,158"/>
+<area shape="rect" id="node3" href="$pickDeliver_8c.html" title="/home/nazii/pgrouting\l/src/pickDeliver/pickDeliver.c" alt="" coords="214,117,407,158"/>
+<area shape="rect" id="node4" href="$pickDeliverEuclidean_8c.html" title="/home/nazii/pgrouting\l/src/pickDeliver/pickDeliver\lEuclidean.c" alt="" coords="431,109,614,165"/>
 </map>
