@@ -282,10 +282,16 @@ Here is the caller graph for this function:</div>
 
 <p><br />
 The function check whether column type is ANY-INTEGER or not. </p>
-<p class="">Where ANY-INTEGER is SQL type: SMALLINT,INTEGER,BIGINT</p>
+<p class="">Where ANY-INTEGER is SQL type: SMALLINT, INTEGER, BIGINT</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td>contain column information. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td>contain column information.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ERROR</td><td>Unexpected Column type. Expected column type is ANY-INTEGER. </td></tr>
   </table>
   </dd>
 </dl>
@@ -326,10 +332,16 @@ Here is the caller graph for this function:</div>
 
 <p><br />
 The function check whether column type is ANY-INTEGER-ARRAY or not. </p>
-<p class="">Where ANY-INTEGER-ARRAY is SQL type: SMALLINT[],INTEGER[],BIGINT[]</p>
+<p class="">Where ANY-INTEGER-ARRAY is SQL type: SMALLINT[], INTEGER[], BIGINT[]</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td>contain column information. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td>contain column information.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ERROR</td><td>Unexpected Column type. Expected column type is ANY-INTEGER-ARRAY. </td></tr>
   </table>
   </dd>
 </dl>
@@ -370,10 +382,16 @@ Here is the caller graph for this function:</div>
 
 <p><br />
 The function check whether column type is ANY-NUMERICAL. </p>
-<p class="">Where ANY-NUMERICAL is SQL type: NUMERIC</p>
+<p class="">Where ANY-NUMERICAL is SQL type: SMALLINT, INTEGER, BIGINT, REAL, FLOAT</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td>contain column information. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td>contain column information.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ERROR</td><td>Unexpected Column type. Expected column type is ANY-NUMERICAL. </td></tr>
   </table>
   </dd>
 </dl>
@@ -417,7 +435,13 @@ The function check whether column type is CHAR or not. </p>
 <p class="">Where CHAR is SQL type: CHARACTER</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td>contain column information. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td>contain column information.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ERROR</td><td>Unexpected Column type. Expected column type is CHAR. </td></tr>
   </table>
   </dd>
 </dl>
@@ -461,7 +485,13 @@ The function check whether column type is TEXT or not. </p>
 <p class="">Where TEXT is SQL type: TEXT</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td>contain column information. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td>contain column information.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ERROR</td><td>Unexpected Column type. Expected column type is TEXT. </td></tr>
   </table>
   </dd>
 </dl>
@@ -516,6 +546,12 @@ Function tells expected type of each column and then check the correspondence ty
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">info[]</td><td>contain one or more column information. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">info_size</td><td>number of columns.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ERROR</td><td>Unknown type of column.</td></tr>
   </table>
   </dd>
 </dl>
@@ -612,6 +648,13 @@ Function returns the value of specified column in integer type. </p>
   </table>
   </dd>
 </dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ERROR</td><td>Unexpected Column type. Expected column type is ANY-INTEGER. </td></tr>
+    <tr><td class="paramname">ERROR</td><td>When value of column is NULL.</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>Integer type of column value is returned. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="get__check__data_8c_source.html#l00213">213</a> of file <a class="el" href="get__check__data_8c_source.html">get_check_data.c</a>.</p>
@@ -687,6 +730,14 @@ Function returns the values of specified columns in array. </p>
     <tr><td class="paramdir">[in]</td><td class="paramname">tupdesc</td><td>input row description. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td>contain column information. </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">the_size</td><td>number of element in array.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ERROR</td><td>No elements found in ARRAY. </td></tr>
+    <tr><td class="paramname">ERROR</td><td>Unexpected Column type. Expected column type is ANY-INTEGER-ARRAY. </td></tr>
+    <tr><td class="paramname">ERROR</td><td>NULL value found in Array.</td></tr>
   </table>
   </dd>
 </dl>
@@ -771,6 +822,13 @@ Function return the value of specified column in char type. </p>
     <tr><td class="paramdir">[in]</td><td class="paramname">info</td><td>contain column information. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">strict</td><td>boolean value of strict. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">default_value</td><td>returned when column contain NULL value.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ERROR</td><td>Unexpected Column type. Expected column type is CHAR. </td></tr>
+    <tr><td class="paramname">ERROR</td><td>When value of column is NULL.</td></tr>
   </table>
   </dd>
 </dl>
@@ -915,7 +973,7 @@ Function returns the string representation of the value of specified column. </p
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_fdedb0aba14d44ce9d99bc100e026e6a.html">common</a></li><li class="navelem"><a class="el" href="get__check__data_8c.html">get_check_data.c</a></li>
-    <li class="footer">Generated on Fri Jan 26 2018 12:52:49 for PGROUTING by
+    <li class="footer">Generated on Fri Jan 26 2018 20:55:26 for PGROUTING by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.15 </li>
   </ul>
