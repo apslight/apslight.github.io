@@ -115,7 +115,6 @@
 <li><a class="reference internal" href="#description-of-the-return-values-for-prim-algorithms">Description of the return values for prim algorithms</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#important">Important</a></li>
 <li><a class="reference internal" href="#see-also">See Also</a></li>
 </ul>
 </li>
@@ -154,7 +153,7 @@
       
   <div class="section" id="pgr-prim">
 <span id="id1"></span><h1>pgr_prim<a class="headerlink" href="#pgr-prim" title="Permalink to this headline">¶</a></h1>
-<p><code class="docutils literal"><span class="pre">pgr_prim</span></code> — Returns the minimum spanning forest of graph using Prim algorithm.
+<p><code class="docutils literal"><span class="pre">pgr_prim</span></code> — Returns the minimum spanning tree of graph using Prim algorithm.
 In particular, the Prim algorithm implemented by Boost.Graph.</p>
 <div class="figure" id="id2">
 <a class="reference external image-reference" href="https://www.boost.org/doc/libs/1_64_0/libs/graph/doc/prim_minimum_spanning_tree.html"><img alt="_images/boost-inside.jpeg" src="_images/boost-inside.jpeg" /></a>
@@ -182,20 +181,22 @@ forest.</p>
 <div><ul class="simple">
 <li>Process is done only on edges with positive costs.</li>
 <li>It&#8217;s implementation is on only undirected graph.</li>
-<li>It individually deal with all connected graph in disconnected graph.</li>
-<li>One node will be root vertex from where the span start for each tree.</li>
-<li>Any node can be root vertex the result will be same.</li>
-<li>Values are returned when there is a minimum spanning tree.<ul>
-<li>When there is no edge in graph then <cite>agg_cost</cite> is <cite>0</cite>.</li>
+<li>Span start from chosen root_vertex resulting subgraph.<ul>
+<li>Default value of root_vertex is <cite>-1</cite> then result is minimun spannig tree of disconnected graph.</li>
 </ul>
 </li>
-<li>Running time: <span class="math">\(O(|No. of unconnected graph| * (E*log V))\)</span></li>
+<li>Values are returned when there is a minimum spanning tree.<ul>
+<li>When there is no edge in graph then EMPTY SET is return.</li>
+</ul>
+</li>
+<li>Running time: <span class="math">\(O(E*log V)\)</span></li>
 </ul>
 </div></blockquote>
 </div>
 <div class="section" id="signatures">
 <h2>Signatures<a class="headerlink" href="#signatures" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-none" id="index-0"><div class="highlight"><pre>pgr_prim(edges_sql)
+pgr_prim(edges_sql, root_vertex)
 
 RETURNS SET OF (seq, prim_tree, start_node, end_node, edge, cost, agg_cost)
    or EMPTY SET
@@ -210,58 +211,77 @@ RETURNS SET OF (seq, prim_tree, start_node, end_node, edge, cost, agg_cost)
 </tr>
 </tbody>
 </table>
+<p>Here root_vertex is <cite>-1</cite>. So, result is MST of disconnected graph.</p>
 <div class="highlight-python"><div class="highlight"><pre>SELECT * FROM pgr_prim(
     &#39;SELECT id, source, target, cost, reverse_cost FROM edge_table&#39;
 );
  seq | prim_tree | start_node | end_node | edge | cost | agg_cost 
 -----+-----------+------------+----------+------+------+----------
    1 |         1 |          1 |       -1 |   -1 |    0 |        0
-   2 |         1 |          2 |        1 |    1 |    1 |        1
-   3 |         1 |          3 |        2 |    2 |    1 |        2
-   4 |         1 |          4 |        3 |    3 |    1 |        3
-   5 |         1 |          5 |        2 |    4 |    1 |        4
-   6 |         1 |          6 |        3 |    5 |    1 |        5
-   7 |         1 |          7 |        8 |    6 |    1 |        6
-   8 |         1 |          8 |        5 |    7 |    1 |        7
-   9 |         1 |          9 |        6 |    9 |    1 |        8
-  10 |         1 |         10 |        5 |   10 |    1 |        9
-  11 |         1 |         11 |        6 |   11 |    1 |       10
-  12 |         1 |         12 |       11 |   13 |    1 |       11
-  13 |         1 |         13 |       10 |   14 |    1 |       12
+   2 |         1 |          1 |        2 |    1 |    1 |        1
+   3 |         1 |          2 |        3 |    2 |    1 |        2
+   4 |         1 |          2 |        5 |    4 |    1 |        3
+   5 |         1 |          3 |        6 |    5 |    1 |        4
+   6 |         1 |          5 |       10 |   10 |    1 |        5
+   7 |         1 |          6 |       11 |   11 |    1 |        6
+   8 |         1 |         10 |       13 |   14 |    1 |        7
+   9 |         1 |         11 |       12 |   13 |    1 |        8
+  10 |         1 |          6 |        9 |    9 |    1 |        9
+  11 |         1 |          5 |        8 |    7 |    1 |       10
+  12 |         1 |          3 |        4 |    3 |    1 |       11
+  13 |         1 |          8 |        7 |    6 |    1 |       12
   14 |         2 |         14 |       -1 |   -1 |    0 |        0
-  15 |         2 |         15 |       14 |   17 |    1 |        1
+  15 |         2 |         14 |       15 |   17 |    1 |        1
   16 |         3 |         16 |       -1 |   -1 |    0 |        0
-  17 |         3 |         17 |       16 |   18 |    1 |        1
+  17 |         3 |         16 |       17 |   18 |    1 |        1
 (17 rows)
 
 </pre></div>
 </div>
-<a class="reference internal image-reference" href="images/prim_sampleData.png"><img alt="images/prim_sampleData.png" src="images/prim_sampleData.png" style="width: 685px; height: 387px;" /></a>
 <table class="docutils field-list" frame="void" rules="none">
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Example:</th><td class="field-body">Additional exapmle</td>
+<tr class="field-odd field"><th class="field-name">Example:</th><td class="field-body">Additional example</td>
 </tr>
 </tbody>
 </table>
+<p>Results is subgraph which contain root_vertex.</p>
 <div class="highlight-python"><div class="highlight"><pre>SELECT * FROM pgr_prim(
-    &#39;SELECT id, source, target, cost, reverse_cost FROM edge_table where id &gt; 10 &#39;
+    &#39;SELECT id, source, target, cost, reverse_cost FROM edge_table&#39;, 4
 );
  seq | prim_tree | start_node | end_node | edge | cost | agg_cost 
 -----+-----------+------------+----------+------+------+----------
-   1 |         1 |          6 |       -1 |   -1 |    0 |        0
-   2 |         1 |         11 |        6 |   11 |    1 |        1
-   3 |         1 |         10 |       11 |   12 |    1 |        2
+   1 |         1 |          4 |       -1 |   -1 |    0 |        0
+   2 |         1 |          4 |        3 |    3 |    1 |        1
+   3 |         1 |          4 |        9 |   16 |    1 |        2
+   4 |         1 |          3 |        6 |    5 |    1 |        3
+   5 |         1 |          9 |       12 |   15 |    1 |        4
+   6 |         1 |          6 |       11 |   11 |    1 |        5
+   7 |         1 |          6 |        5 |    8 |    1 |        6
+   8 |         1 |         11 |       10 |   12 |    1 |        7
+   9 |         1 |          5 |        8 |    7 |    1 |        8
+  10 |         1 |         10 |       13 |   14 |    1 |        9
+  11 |         1 |          8 |        7 |    6 |    1 |       10
+  12 |         1 |          3 |        2 |    2 |    1 |       11
+  13 |         1 |          2 |        1 |    1 |    1 |       12
+(13 rows)
+
+</pre></div>
+</div>
+<div class="highlight-python"><div class="highlight"><pre>SELECT * FROM pgr_prim(
+    &#39;SELECT id, source, target, cost, reverse_cost FROM edge_table where id &gt; 10&#39;, 9
+);
+ seq | prim_tree | start_node | end_node | edge | cost | agg_cost 
+-----+-----------+------------+----------+------+------+----------
+   1 |         1 |          9 |       -1 |   -1 |    0 |        0
+   2 |         1 |          9 |       12 |   15 |    1 |        1
+   3 |         1 |          9 |        4 |   16 |    1 |        2
    4 |         1 |         12 |       11 |   13 |    1 |        3
-   5 |         1 |         13 |       10 |   14 |    1 |        4
-   6 |         1 |          9 |       12 |   15 |    1 |        5
-   7 |         1 |          4 |        9 |   16 |    1 |        6
-   8 |         2 |         14 |       -1 |   -1 |    0 |        0
-   9 |         2 |         15 |       14 |   17 |    1 |        1
-  10 |         3 |         16 |       -1 |   -1 |    0 |        0
-  11 |         3 |         17 |       16 |   18 |    1 |        1
-(11 rows)
+   5 |         1 |         11 |        6 |   11 |    1 |        4
+   6 |         1 |         11 |       10 |   12 |    1 |        5
+   7 |         1 |         10 |       13 |   14 |    1 |        6
+(7 rows)
 
 </pre></div>
 </div>
@@ -341,10 +361,10 @@ RETURNS SET OF (seq, prim_tree, start_node, end_node, edge, cost, agg_cost)
 <h3>Description of the parameters of the signatures<a class="headerlink" href="#description-of-the-parameters-of-the-signatures" title="Permalink to this headline">¶</a></h3>
 <table border="1" class="docutils">
 <colgroup>
-<col width="21%" />
-<col width="24%" />
-<col width="10%" />
-<col width="45%" />
+<col width="17%" />
+<col width="19%" />
+<col width="8%" />
+<col width="57%" />
 </colgroup>
 <thead valign="bottom">
 <tr class="row-odd"><th class="head">Parameter</th>
@@ -359,6 +379,15 @@ RETURNS SET OF (seq, prim_tree, start_node, end_node, edge, cost, agg_cost)
 <td>&nbsp;</td>
 <td>SQL query as described above.</td>
 </tr>
+<tr class="row-odd"><td><strong>root_vertex</strong></td>
+<td><code class="docutils literal"><span class="pre">BIGINT</span></code></td>
+<td>-1</td>
+<td><p class="first">Root vertex from where spanning of tree start.</p>
+<ul class="last simple">
+<li>When root vertx is -1 then result is MST of disconnected graph.</li>
+</ul>
+</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -367,9 +396,9 @@ RETURNS SET OF (seq, prim_tree, start_node, end_node, edge, cost, agg_cost)
 <p>Returns set of <code class="docutils literal"><span class="pre">(seq,</span> <span class="pre">prim_tree,</span> <span class="pre">start_node,</span> <span class="pre">end_node,</span> <span class="pre">edge,</span> <span class="pre">cost,</span> <span class="pre">agg_cost)</span></code></p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="10%" />
-<col width="8%" />
-<col width="82%" />
+<col width="11%" />
+<col width="9%" />
+<col width="80%" />
 </colgroup>
 <thead valign="bottom">
 <tr class="row-odd"><th class="head">Column</th>
@@ -384,19 +413,19 @@ RETURNS SET OF (seq, prim_tree, start_node, end_node, edge, cost, agg_cost)
 </tr>
 <tr class="row-odd"><td><strong>prim_tree</strong></td>
 <td><code class="docutils literal"><span class="pre">BIGINT</span></code></td>
-<td>It represent the number of minimun spanning tree in unconnected graph.</td>
+<td>It represent <strong>subgraph</strong> in disconnected graph.</td>
 </tr>
 <tr class="row-even"><td><strong>start_node</strong></td>
 <td><code class="docutils literal"><span class="pre">BIGINT</span></code></td>
-<td>Identifier of the starting vertex of edge.</td>
+<td>Identifier of the starting vertex of spanning tree.</td>
 </tr>
 <tr class="row-odd"><td><strong>end_node</strong></td>
 <td><code class="docutils literal"><span class="pre">BIGINT</span></code></td>
-<td>Identifier of the ending vertex of edge and predecessor of start_node. -1 for the root vertex.</td>
+<td>Identifier of the ending vertex of spanning tree. <cite>-1</cite> for the root vertex.</td>
 </tr>
 <tr class="row-even"><td><strong>edge</strong></td>
 <td><code class="docutils literal"><span class="pre">BIGINT</span></code></td>
-<td>Identifier of the edge used to go from start_node to end_node or vice-versa. -1 when start_node is root vertex.</td>
+<td>Identifier of the edge used to go from start_node to end_node or vice-versa. <cite>-1</cite> for the root vertex.</td>
 </tr>
 <tr class="row-odd"><td><strong>cost</strong></td>
 <td><code class="docutils literal"><span class="pre">FLOAT</span></code></td>
@@ -404,56 +433,17 @@ RETURNS SET OF (seq, prim_tree, start_node, end_node, edge, cost, agg_cost)
 </tr>
 <tr class="row-even"><td><strong>agg_cost</strong></td>
 <td><code class="docutils literal"><span class="pre">FLOAT</span></code></td>
-<td>Aggregate cost of edges that is covered in sapnning.</td>
+<td>Aggregate cost of edges that is covered in spanning.</td>
 </tr>
 </tbody>
 </table>
 </div>
-</div>
-<div class="section" id="important">
-<h2>Important<a class="headerlink" href="#important" title="Permalink to this headline">¶</a></h2>
-<p>Order of start_node depend upon ascending identifier of edges <strong>for each tree</strong>.
-OR we can say ascending of vertex_id.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Example:</th><td class="field-body"></td>
-</tr>
-</tbody>
-</table>
-<p>Edges</p>
-<p>Example of additional example for tree 1.</p>
-<div class="highlight-none"><div class="highlight"><pre>edge_id | source | target
---------+--------+-------
-      1 |      6 |     11
-      2 |     10 |     11
-      3 |     11 |     12
-      4 |     10 |     13
-      5 |      9 |     12
-      6 |      4 |      9
-</pre></div>
-</div>
-<p>Then the order will be</p>
-<div class="highlight-none"><div class="highlight"><pre>edge_id | order of start_node
---------+-------------------
-      1 |      6, 11
-      2 |         10
-      3 |         12
-      4 |         13
-      5 |          9
-      6 |          4
-</pre></div>
-</div>
-<p>So, the order of start_node is 6, 11, 12, 13, 9, 4.</p>
-<p>Where:
-6 will be root vertex.</p>
 </div>
 <div class="section" id="see-also">
 <h2>See Also<a class="headerlink" href="#see-also" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><a class="reference external" href="https://en.wikipedia.org/wiki/Prim%27s_algorithm">https://en.wikipedia.org/wiki/Prim%27s_algorithm</a></li>
-<li>The queries use the <span class="xref std std-ref">sampledata</span> network.</li>
+<li>The queries use the <a class="reference internal" href="sampledata.html"><em>Sample Data</em></a> network.</li>
 </ul>
 <p class="rubric">Indices and tables</p>
 <ul class="simple">
@@ -476,7 +466,7 @@ OR we can say ascending of vertex_id.</p>
     </p>
     <p>
         &copy; Copyright pgRouting Contributors - Version v3.0.0-dev.<br/>
-      Last updated on May 31, 2018.<br/>
+      Last updated on Jun 06, 2018.<br/>
       Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.3.6.<br/>
     </p>
   </div>
